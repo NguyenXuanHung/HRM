@@ -1,0 +1,241 @@
+﻿/* Home page */
+div#unlicensed {
+    display: none !important;
+    width: 10px !important;
+}
+.x-layout-collapsed-west {
+    background: url(/Resource/images/Menu_Chuc_Nang.png) no-repeat center;
+}
+
+/* Default style */
+#sortable {
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    width: 60%;
+    text-align: left;
+}
+
+    #sortable li {
+        margin: 10px 3px 3px;
+        padding: 3px;
+        border: solid 1px #ccc;
+        font-family: Arial;
+        font-size: 11px;
+        cursor: move;
+        background-color: #F9F9F9;
+        font-weight: bold;
+    }
+/************MENU TRÁI************/
+.BaoCao {
+    background-image: url(../iconMenu/chart.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.Money {
+    background-image: url(../iconMenu/Money.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.List {
+    background-image: url(../iconMenu/List.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.chamcong {
+    background-image: url(../iconMenu/chamcong.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.Insurrance {
+    background-image: url(../iconMenu/Insurrance.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.DanhGia {
+    background-image: url(../iconMenu/DanhGia.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.kehoach {
+    background-image: url(../iconMenu/kehoach.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.tuyendung {
+    background-image: url(../iconMenu/vali.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+
+.Employee {
+    background-image: url(../iconMenu/employee.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+/*chỉnh chiều cao của menu dọc*/
+.x-panel-header {
+    height: 26px !important;
+    font-weight: bold;
+    line-height: 26px !important;
+}
+.x-tool-toggle {
+    margin-top: 5px !important;
+}
+
+/* UserManagement */
+.west-panel2 .x-layout-collapsed-west {
+    background: url(/Resource/images/Loc_Theo_Quyen.png) no-repeat center;
+}
+.x-layout-split {
+    border: 1px solid #8DB2E3 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+#grpUserAcc {
+    border-top: 1px solid #8DB2E3 !important;
+    border-bottom: 1px solid #8DB2E3 !important;
+}
+.badge {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+    font-size: 9px !important;
+    display: inline-block;
+    margin-right: 5px;
+}
+.badge-normal{
+    border:1px solid #000;
+}
+.badge-red{
+    background-color:red;
+    color: #fff;
+}
+.badge-work {
+    background-color: blue;
+    color: #fff;
+}
+.badge-late {
+    background-color: darkorange;
+    color: #000;
+}
+.badge-leave {
+    background-color: darkturquoise;
+    color: #000;
+}
+.badge-notleave {
+    background-color: blueviolet;
+    color: #fff;
+}
+.badge-holiday {
+    background-color: fuchsia;
+    color: #fff;
+}
+.badge-ajust {
+    background-color: #368eeb;
+    color: #f9f9f9;
+}
+.badge-default1 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default2 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+.badge-default3 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default4 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+.badge-default5 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default6 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+.badge-default7 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default8 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+.badge-default9 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default10 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+.badge-default11 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default12 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+.badge-default13 {
+    background-color: #add8e6;
+    color: #f9f9f9;
+}
+.badge-default14 {
+    background-color: #008080;
+    color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+﻿*
+{
+    padding: 0px;
+    margin: 0px;
+}
+ul#menu li
+{
+    float: left;
+}
+div#WestPanel-xsplit
+{
+    border: 1px solid #99bbe8;
+    border-bottom: none;
+    border-top: none;
+}
+
+.highlight
+{
+    background: yellow;
+}
+
+#wdMoRong_IFrame
+{
+    background: #fff !important;
+}
+#pnlChart
+{
+    border-bottom: 1px solid #99bbe8;
+}
+/*Ẩn thanh tab ở window report*/
+div#pnReportPanel .x-tab-panel-header, div#TabPanel1 .x-tab-panel-header, div#TabPanel2 .x-tab-panel-header
+{
+    display: none !important;
+} 
+/*div#grp_sinhnhatnhanvien .x-grid3-cell-inner
+{
+    white-space:nowrap !important;
+}*/
+.cbStates-list
+{
+    width: 298px;
+    font: 11px tahoma,arial,helvetica,sans-serif;
+} 
+.cbStates-list th
+{
+    font-weight: bold;
+} 
+.cbStates-list td, .cbStates-list th
+{
+    padding: 3px;
+}

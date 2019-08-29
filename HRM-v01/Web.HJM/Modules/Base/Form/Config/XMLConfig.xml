@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  thuộc tính của tab
+    title: tiêu đề tab
+    layout: col hoặc row
+  thuộc tính của container
+     title="Tiêu đề group" width="100" height="100" displayTitle="true" layout="row" labelAlign="Top"s
+-->
+<form>
+  <Tab title="Tên tab thứ nhất" layout="col">
+    <items>
+      <Container title="Tiêu đề group" width="0.8" height="100" displayTitle="true" layout="row" labelAlign="Top">
+        <items>
+          <control columnName="Email"/>
+          <control columnName="LastName"/>
+          <control columnName="FirstName"/>
+          <control columnName="LastName"/>
+          <control columnName="FullName"/>
+        </items>
+      </Container>
+      <Container layout="col">
+        <items>
+          <Container title="abc" layout="row">
+            <items>
+              <control columnName="Email"/>
+              <control columnName="LastName"/>
+              <control columnName="FirstName"/>
+              <control columnName="LastName"/>
+              <control columnName="FullName"/>
+            </items>
+          </Container>
+          <Container title="abc"></Container>
+        </items>
+      </Container>
+    </items>
+  </Tab>
+  <Tab title="Tên tab thứ Hai" layout="col">
+    <items>
+      <Container title="Tiêu đề group" width="0.8" height="100" displayTitle="true" layout="row" labelAlign="Top">
+        <items>
+          <control columnName="Email"/>
+          <control columnName="LastName"/>
+          <control columnName="FirstName"/>
+          <control columnName="LastName"/>
+          <control columnName="FullName"/>
+        </items>
+      </Container>
+      <Container layout="col">
+        <items>
+          <Container title="abc" layout="row">
+            <items>
+              <control columnName="Email"/>
+              <control columnName="LastName"/>
+              <control columnName="FirstName"/>
+              <control columnName="LastName"/>
+              <control columnName="FullName"/>
+            </items>
+          </Container>
+          <Container title="abc"></Container>
+        </items>
+      </Container>
+    </items>
+  </Tab>
+</form>

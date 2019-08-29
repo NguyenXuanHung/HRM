@@ -1,0 +1,246 @@
+﻿/*******************CSS PUBLISH************************/
+.main {
+    padding: 0px 6px;
+    height: auto;
+    margin: 0 auto;
+    font: normal 13px Timenewroman;
+}
+
+.col {
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+.col-9{
+    width:  66.667%;
+}
+.col-3 {
+    width: 33.333%
+}
+.col-10 {
+    width: 82%;
+}
+
+.col-2 {
+    width: 18%
+}
+.clr {
+    clear: both;
+}
+
+.btn {
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.w80 {
+    width: 80% !important;
+}
+
+.x-form-simpleadd-trigger {
+    background: url(/Resource/icon/TriggerAdd.png) no-repeat !important;
+}
+
+#pn .x-panel-body {
+    background-color: #f7f7f7 !important;
+}
+
+.label {
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/********************************CSS MAIN CONTENT**************************/
+div#A4, div#help {
+    width: 200mm;
+    margin: 30px 15px;
+    margin: 0px auto;
+    padding: 3px;
+    position: absolute;
+    left: 10px;
+}
+
+div#help {
+    background: none repeat scroll 0 0 #b4009d;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+
+/***********************CSS RIGHT COLUMN*************************/
+#RightColumn {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #dddddd;
+    width: 100%;
+    height: 100%;
+}
+
+#RightCommand {
+    background: none repeat scroll 0 0 #fff;
+    line-height: 18px;
+    width: 100%;
+}
+
+    #RightCommand span {
+        display: block;
+        background: #33B2CD;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 11px 15px;
+        font-size: 14px !important;
+    }
+
+    #RightCommand ul li {
+        border-bottom: 1px solid #ddd;
+        padding: 1px;
+    }
+
+        #RightCommand ul li:hover {
+            background: #33B2CD;
+        }
+
+            #RightCommand ul li:hover a {
+                color: #fff;
+            }
+
+    #RightCommand a {
+        font-size: 12px;
+        text-decoration: none;
+        display: block;
+        color: #333;
+        padding: 3px 15px;
+    }
+    #RightCommand a:hover {
+        color: #fff;
+    }
+
+#LeftCommand {
+    padding: 10px 0px 0px;
+    width: 80%;
+    margin: auto;
+}
+
+    #LeftCommand .btn-customer {
+        font-size: 18px !important;
+        border: 0px;
+        margin-bottom: 10px;
+        padding: 8px 15px;
+        text-decoration: none;
+        background-color: #33b2cd;
+    }
+
+#BottomCommand {
+    margin: auto;
+}
+
+    #BottomCommand .btn-customer {
+        margin-bottom: 10px;
+        max-height: 40px;
+        height: 40px;
+    }
+
+        #BottomCommand .btn-customer img {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: .25rem;
+        }
+
+#SoHieuCanBo {
+    float: right;
+    margin-right: 100px;
+}
+
+#bonoivu {
+    font: bold 16px Timenewroman;
+    float: left;
+    margin-left: 200px;
+    padding-bottom: 20px;
+}
+
+#title {
+    padding: 5px 0;
+    font: bold 20px Timenewroman;
+    text-align: center;
+}
+
+#ThongTinCaNhan {
+    margin-right: 10px !important;
+    padding: 6px;
+    border: 1px solid #aaa;
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#image {
+    float: left;
+}
+
+.table {
+    width: 100%;
+    border: none;
+    width: 746px !important;
+}
+
+#info {
+    float: right;
+    width: 585px;
+}
+
+#gioitinh {
+    float: right;
+    width: 605px;
+}
+
+#tongiao {
+    margin-left: 150px;
+    float: left;
+}
+
+#BacLuong, #HeSo, #NgayHuongLuong, #PhuCapChucVu, #PhuCapKhac, #NoiKetNamDang, #NgayTaiNgu, #QuanHamCaoNhat, #CoQuanTuyenDung, #CaoCanNang, #NhomMau,
+#NgayCapCMND, #NoiCapCMND, #NgayCapBHXH, #NoiSinhHuyen, #NoiSinhTinh, #QueQuanHuyen, #QueQuanTinh, #ThanhPhanBanThan, #ThanhPhanGiaDinh {
+    float: left;
+    margin-left: 25px;
+}
+
+#QuanLyNhaNuoc, #SoHieuCBCC {
+    float: left;
+    margin-left: 25px;
+}
+
+#NgayChinhThuc, #ChucVuDang, #ChucVuDoanHienNay, #ConGiaDinhChinhSach {
+    float: left;
+    margin-left: 40px;
+}
+

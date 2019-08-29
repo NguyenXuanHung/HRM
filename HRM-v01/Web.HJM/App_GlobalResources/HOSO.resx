@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexTimeSheetHandlerType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexTimeSheetHandlerType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="contract_type" xml:space="preserve">
+    <value>Loại hợp đồng</value>
+  </data>
+  <data name="day_probation" xml:space="preserve">
+    <value>Ngày thử việc</value>
+  </data>
+  <data name="EmailNoiBo" xml:space="preserve">
+    <value>Email nội bộ</value>
+  </data>
+  <data name="identity_number" xml:space="preserve">
+    <value>Số CMT</value>
+  </data>
+  <data name="MaCanBo" xml:space="preserve">
+    <value>Mã CBNV&lt;span style='color:red;'&gt;*&lt;/span&gt;</value>
+    <comment>mã cán bộ</comment>
+  </data>
+  <data name="number_line_per_page" xml:space="preserve">
+    <value>Số dòng trên một trang:</value>
+  </data>
+  <data name="official_day" xml:space="preserve">
+    <value>Ngày nhận chính thức</value>
+  </data>
+  <data name="SoHieuCanBo" xml:space="preserve">
+    <value>Số hiệu cán bộ, công chức</value>
+    <comment>số hiệu cán bộ</comment>
+  </data>
+  <data name="SoNgayHocViec" xml:space="preserve">
+    <value>Số ngày học việc</value>
+  </data>
+  <data name="staff_address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="staff_birthday" xml:space="preserve">
+    <value>&lt;b&gt;3) Sinh ngày&lt;/b&gt;</value>
+  </data>
+  <data name="staff_code" xml:space="preserve">
+    <value>Mã CB</value>
+  </data>
+  <data name="staff_gender" xml:space="preserve">
+    <value>&lt;b&gt;Giới tính&lt;/b&gt;</value>
+  </data>
+  <data name="staff_level" xml:space="preserve">
+    <value>Trình độ</value>
+  </data>
+  <data name="staff_name" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="staff_phone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="staff_section" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="ThoiGianThuViec" xml:space="preserve">
+    <value>Thời gian thử việc</value>
+  </data>
+  <data name="training_school" xml:space="preserve">
+    <value>Trường đào tạo</value>
+  </data>
+  <data name="utility" xml:space="preserve">
+    <value>Tiện ích</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Đồng ý</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="Asset_Allocation" xml:space="preserve">
+    <value>3.Tài sản cấp phát</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Đóng lại</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Double_data" xml:space="preserve">
+    <value>Nhân đôi dữ liệu</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="enter_from_excel" xml:space="preserve">
+    <value>Nhập từ Excel</value>
+  </data>
+  <data name="Formats_file_is_not_valid" xml:space="preserve">
+    <value>Định dạng tệp tin không hợp lệ</value>
+  </data>
+  <data name="guide" xml:space="preserve">
+    <value>Hướng dẫn</value>
+  </data>
+  <data name="HR_profile" xml:space="preserve">
+    <value>Hồ sơ nhân sự</value>
+  </data>
+  <data name="Labour_Contract" xml:space="preserve">
+    <value>2. Hợp đồng lao động</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Đang tải dữ liệu</value>
+  </data>
+  <data name="mass_update_image" xml:space="preserve">
+    <value>Cập nhật ảnh hàng loạt</value>
+  </data>
+  <data name="maximum_characters" xml:space="preserve">
+    <value>Bạn chỉ được nhập tối đa 50 ký tự</value>
+  </data>
+  <data name="notify" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="general_information" xml:space="preserve">
+    <value>Thông tin cơ bản</value>
+  </data>
+  <data name="personal_information" xml:space="preserve">
+    <value>Thông tin cá nhân</value>
+  </data>
+  <data name="Please_wait" xml:space="preserve">
+    <value>Chờ trong giây lát</value>
+  </data>
+  <data name="Profile_information" xml:space="preserve">
+    <value>1.Thông tin hồ sơ</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="Select_Image" xml:space="preserve">
+    <value>Chọn ảnh</value>
+  </data>
+  <data name="software_only_accept_image" xml:space="preserve">
+    <value>phần mềm chỉ chấp nhận các định dạng ảnh jpg, png, gif, bmp, jpeg!</value>
+  </data>
+  <data name="are_you_sure" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa không ?</value>
+  </data>
+  <data name="description_record" xml:space="preserve">
+    <value>Dòng {0} đến dòng {1} / {2} dòng</value>
+  </data>
+  <data name="first_page" xml:space="preserve">
+    <value>Trang đầu tiên</value>
+  </data>
+  <data name="last_page" xml:space="preserve">
+    <value>Trang cuối cùng</value>
+  </data>
+  <data name="next_page" xml:space="preserve">
+    <value>Trang sau</value>
+  </data>
+  <data name="no_data" xml:space="preserve">
+    <value>Hiện không có dữ liệu</value>
+  </data>
+  <data name="no_selected_record" xml:space="preserve">
+    <value>Bạn chưa chọn bản ghi nào</value>
+  </data>
+  <data name="page_size" xml:space="preserve">
+    <value>Số dòng trên 1 trang</value>
+  </data>
+  <data name="prev_page" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="staff_birthday_required" xml:space="preserve">
+    <value>&lt;b&gt;3) Ngày sinh&lt;/b&gt;&lt;span style='color:red;'&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="staff_name_required" xml:space="preserve">
+    <value>&lt;b&gt;1) Họ và tên khai sinh&lt;/b&gt;&lt;span style='color:red;'&gt;*&lt;/span&gt;</value>
+  </data>
+</root>

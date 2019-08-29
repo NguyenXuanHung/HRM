@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Home>
+  <Chart userid="29">
+    <UserSetDefault>chart/LineChart.aspx?type=BDNhanSu&amp;year=2014&amp;userID=29</UserSetDefault>
+  </Chart>
+  <Chart userid="27">
+    <UserSetDefault>chart/ColumnChart.aspx?type=Age&amp;userID=27</UserSetDefault>
+  </Chart>
+  <Chart userid="141">
+    <UserSetDefault>chart/PieChart.aspx?type=Level</UserSetDefault>
+  </Chart>
+  <Chart userid="254">
+    <UserSetDefault>chart/PieChart.aspx?type=TTHonNhan&amp;userID=254</UserSetDefault>
+  </Chart>
+  <Chart userid="253">
+    <UserSetDefault>chart/PieChart.aspx?type=TonGiao&amp;userID=253</UserSetDefault>
+  </Chart>
+  <Chart userid="2">
+    <UserSetDefault>chart/PieChart.aspx?type=Gender&amp;userID=2</UserSetDefault>
+  </Chart>
+  <Chart userid="1">
+    <UserSetDefault>chart/ColumnChart.aspx?type=NSDonVi&amp;userID=1</UserSetDefault>
+  </Chart>
+</Home>

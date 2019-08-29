@@ -1,0 +1,51 @@
+﻿.x-layout-split {
+    background: #DFE8F6 !important;
+    border: 1px solid #99BBE8 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.jqx-tree-dropdown-root {
+    padding-top: 10px !important;
+    min-width: 90% !important;
+    width: 90% !important;
+}
+
+.jqx-widget-content {
+    border-color: #FFFFFF !important;
+}
+
+#jqxMenu {
+    width: 100% !important;
+}
+
+#paneljqxMenu {
+    width: 100% !important;
+}
+
+#paneljqxMenuverticalScrollBar {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.jqx-checkbox {
+    margin-top: 10px !important;
+}
+
+.jqx-tree-item-arrow-collapse {
+    margin-top: 10px !important;
+} 
+
+.menuItemName {
+    float: left;
+    font-size: 14px !important;
+    line-height: 26px !important;
+}
+
+.menuItemPermission {
+    float: left;
+    font-size: 14px !important;
+    line-height: 26px !important;
+    padding-left: 20px;
+    color: #0094ff;
+}

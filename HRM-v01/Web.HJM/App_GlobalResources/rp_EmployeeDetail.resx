@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexTimeSheetHandlerType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexTimeSheetHandlerType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </metadata>
+  <metadata name="xrMaSoThue.Name" xml:space="preserve">
+    <value>xrMaSoThue</value>
+  </metadata>
+  <metadata name="xrTenNganHang.Name" xml:space="preserve">
+    <value>xrTenNganHang</value>
+  </metadata>
+  <metadata name="xrTaiKhoanNganHang.Name" xml:space="preserve">
+    <value>xrTaiKhoanNganHang</value>
+  </metadata>
+  <metadata name="xrTruongDaoTao.Name" xml:space="preserve">
+    <value>xrTruongDaoTao</value>
+  </metadata>
+  <metadata name="xrLabel21.Name" xml:space="preserve">
+    <value>xrLabel21</value>
+  </metadata>
+  <metadata name="xrLabel20.Name" xml:space="preserve">
+    <value>xrLabel20</value>
+  </metadata>
+  <metadata name="xrc_THPT.Name" xml:space="preserve">
+    <value>xrc_THPT</value>
+  </metadata>
+  <metadata name="xrLabel22.Name" xml:space="preserve">
+    <value>xrLabel22</value>
+  </metadata>
+  <metadata name="xrHinhThucLamViec.Name" xml:space="preserve">
+    <value>xrHinhThucLamViec</value>
+  </metadata>
+  <metadata name="xrViTriCongViec.Name" xml:space="preserve">
+    <value>xrViTriCongViec</value>
+  </metadata>
+  <metadata name="xrLabel18.Name" xml:space="preserve">
+    <value>xrLabel18</value>
+  </metadata>
+  <metadata name="xrLabel19.Name" xml:space="preserve">
+    <value>xrLabel19</value>
+  </metadata>
+  <metadata name="xrChucVu.Name" xml:space="preserve">
+    <value>xrChucVu</value>
+  </metadata>
+  <metadata name="xrBoPhan.Name" xml:space="preserve">
+    <value>xrBoPhan</value>
+  </metadata>
+  <metadata name="xrLabel17.Name" xml:space="preserve">
+    <value>xrLabel17</value>
+  </metadata>
+  <metadata name="xrNgayHetHanBHXH.Name" xml:space="preserve">
+    <value>xrNgayHetHanBHXH</value>
+  </metadata>
+  <metadata name="xrLabel32.Name" xml:space="preserve">
+    <value>xrLabel32</value>
+  </metadata>
+  <metadata name="xrDiaChiLienHe.Name" xml:space="preserve">
+    <value>xrDiaChiLienHe</value>
+  </metadata>
+  <metadata name="xrEmailLienHe.Name" xml:space="preserve">
+    <value>xrEmailLienHe</value>
+  </metadata>
+  <metadata name="xrQuanHeVoiCanBo.Name" xml:space="preserve">
+    <value>xrQuanHeVoiCanBo</value>
+  </metadata>
+  <metadata name="xrLabel47.Name" xml:space="preserve">
+    <value>xrLabel47</value>
+  </metadata>
+  <metadata name="xrTyLeDongBH.Name" xml:space="preserve">
+    <value>xrTyLeDongBH</value>
+  </metadata>
+  <metadata name="xrLabel64.Name" xml:space="preserve">
+    <value>xrLabel64</value>
+  </metadata>
+  <metadata name="xrNoiKhamBenh.Name" xml:space="preserve">
+    <value>xrNoiKhamBenh</value>
+  </metadata>
+  <metadata name="xrLabel62.Name" xml:space="preserve">
+    <value>xrLabel62</value>
+  </metadata>
+  <metadata name="xr_HetHan_BHYT.Name" xml:space="preserve">
+    <value>xr_HetHan_BHYT</value>
+  </metadata>
+  <metadata name="xrLabel60.Name" xml:space="preserve">
+    <value>xrLabel60</value>
+  </metadata>
+  <metadata name="xrLabel59.Name" xml:space="preserve">
+    <value>xrLabel59</value>
+  </metadata>
+  <metadata name="xrDanhChinhSachBHXH.Name" xml:space="preserve">
+    <value>xrDanhChinhSachBHXH</value>
+  </metadata>
+  <metadata name="xrNoiCapBHXH.Name" xml:space="preserve">
+    <value>xrNoiCapBHXH</value>
+  </metadata>
+  <metadata name="xrLabel55.Name" xml:space="preserve">
+    <value>xrLabel55</value>
+  </metadata>
+  <metadata name="xr_NgayDong_BHYT.Name" xml:space="preserve">
+    <value>xr_NgayDong_BHYT</value>
+  </metadata>
+  <metadata name="xrLabel49.Name" xml:space="preserve">
+    <value>xrLabel49</value>
+  </metadata>
+  <metadata name="xr_SO_THE_BHYT.Name" xml:space="preserve">
+    <value>xr_SO_THE_BHYT</value>
+  </metadata>
+  <metadata name="xrLabel16.Name" xml:space="preserve">
+    <value>xrLabel16</value>
+  </metadata>
+  <metadata name="xrNhuocDiem.Name" xml:space="preserve">
+    <value>xrNhuocDiem</value>
+  </metadata>
+  <data name="xrNhuocDiem.Text" xml:space="preserve">
+    <value>....................................................................................................................................................................................................................................................................................................................................................................</value>
+  </data>
+  <metadata name="xrUuDiem.Name" xml:space="preserve">
+    <value>xrUuDiem</value>
+  </metadata>
+  <data name="xrUuDiem.Text" xml:space="preserve">
+    <value>....................................................................................................................................................................................................................................................................................................................................................................</value>
+  </data>
+  <metadata name="xrLabel52.Name" xml:space="preserve">
+    <value>xrLabel52</value>
+  </metadata>
+  <metadata name="xrSoThich.Name" xml:space="preserve">
+    <value>xrSoThich</value>
+  </metadata>
+  <data name="xrSoThich.Text" xml:space="preserve">
+    <value>....................................................................................................................................................................................................................................................................................................................................................................</value>
+  </data>
+  <metadata name="xrLabel50.Name" xml:space="preserve">
+    <value>xrLabel50</value>
+  </metadata>
+  <metadata name="xrl_Mail.Name" xml:space="preserve">
+    <value>xrl_Mail</value>
+  </metadata>
+  <metadata name="xrLabel46.Name" xml:space="preserve">
+    <value>xrLabel46</value>
+  </metadata>
+  <metadata name="xrBenhBinh.Name" xml:space="preserve">
+    <value>xrBenhBinh</value>
+  </metadata>
+  <metadata name="xrThuongBinh.Name" xml:space="preserve">
+    <value>xrThuongBinh</value>
+  </metadata>
+  <metadata name="xrSDTLienHe.Name" xml:space="preserve">
+    <value>xrSDTLienHe</value>
+  </metadata>
+  <metadata name="xrHoTenLienHe.Name" xml:space="preserve">
+    <value>xrHoTenLienHe</value>
+  </metadata>
+  <metadata name="xrLabel43.Name" xml:space="preserve">
+    <value>xrLabel43</value>
+  </metadata>
+  <metadata name="xrLabel42.Name" xml:space="preserve">
+    <value>xrLabel42</value>
+  </metadata>
+  <metadata name="xrLabel41.Name" xml:space="preserve">
+    <value>xrLabel41</value>
+  </metadata>
+  <metadata name="xrLabel40.Name" xml:space="preserve">
+    <value>xrLabel40</value>
+  </metadata>
+  <metadata name="xrLabel37.Name" xml:space="preserve">
+    <value>xrLabel37</value>
+  </metadata>
+  <metadata name="xrc_QL_CVCC.Name" xml:space="preserve">
+    <value>xrc_QL_CVCC</value>
+  </metadata>
+  <metadata name="xrc_QL_CVC.Name" xml:space="preserve">
+    <value>xrc_QL_CVC</value>
+  </metadata>
+  <metadata name="xrc_QL_CANSU.Name" xml:space="preserve">
+    <value>xrc_QL_CANSU</value>
+  </metadata>
+  <metadata name="xrc_QL_ChuyenVien.Name" xml:space="preserve">
+    <value>xrc_QL_ChuyenVien</value>
+  </metadata>
+  <metadata name="xrc_CUNHAN_CTRI.Name" xml:space="preserve">
+    <value>xrc_CUNHAN_CTRI</value>
+  </metadata>
+  <metadata name="xrc_CAOCAP_CTRI.Name" xml:space="preserve">
+    <value>xrc_CAOCAP_CTRI</value>
+  </metadata>
+  <metadata name="xrc_SOCAP_CTRI.Name" xml:space="preserve">
+    <value>xrc_SOCAP_CTRI</value>
+  </metadata>
+  <metadata name="xrc_TRUNGCAP_CT.Name" xml:space="preserve">
+    <value>xrc_TRUNGCAP_CT</value>
+  </metadata>
+  <metadata name="xrLabel36.Name" xml:space="preserve">
+    <value>xrLabel36</value>
+  </metadata>
+  <metadata name="xrNganh.Name" xml:space="preserve">
+    <value>xrNganh</value>
+  </metadata>
+  <metadata name="xrLabel34.Name" xml:space="preserve">
+    <value>xrLabel34</value>
+  </metadata>
+  <metadata name="xrc_DAIHOC.Name" xml:space="preserve">
+    <value>xrc_DAIHOC</value>
+  </metadata>
+  <metadata name="xrc_SauDaiHoc.Name" xml:space="preserve">
+    <value>xrc_SauDaiHoc</value>
+  </metadata>
+  <metadata name="xrc_TRUNGCAP.Name" xml:space="preserve">
+    <value>xrc_TRUNGCAP</value>
+  </metadata>
+  <metadata name="xrc_CAODANG.Name" xml:space="preserve">
+    <value>xrc_CAODANG</value>
+  </metadata>
+  <metadata name="xrl_NGAY_CAP_BH.Name" xml:space="preserve">
+    <value>xrl_NGAY_CAP_BH</value>
+  </metadata>
+  <metadata name="xrl_HESO_PC_CD.Name" xml:space="preserve">
+    <value>xrl_HESO_PC_CD</value>
+  </metadata>
+  <metadata name="xrl_NGAY_BN_CV.Name" xml:space="preserve">
+    <value>xrl_NGAY_BN_CV</value>
+  </metadata>
+  <metadata name="xrLabel33.Name" xml:space="preserve">
+    <value>xrLabel33</value>
+  </metadata>
+  <metadata name="xrNgayBoNhiem.Name" xml:space="preserve">
+    <value>xrNgayBoNhiem</value>
+  </metadata>
+  <metadata name="xrLabel29.Name" xml:space="preserve">
+    <value>xrLabel29</value>
+  </metadata>
+  <metadata name="xrLabel28.Name" xml:space="preserve">
+    <value>xrLabel28</value>
+  </metadata>
+  <metadata name="xrl_NGAY_NL.Name" xml:space="preserve">
+    <value>xrl_NGAY_NL</value>
+  </metadata>
+  <metadata name="xrLabel27.Name" xml:space="preserve">
+    <value>xrLabel27</value>
+  </metadata>
+  <metadata name="xrl_PHANTRAN_HUONG.Name" xml:space="preserve">
+    <value>xrl_PHANTRAN_HUONG</value>
+  </metadata>
+  <metadata name="xrLabel26.Name" xml:space="preserve">
+    <value>xrLabel26</value>
+  </metadata>
+  <metadata name="xrl_NGAY_BNN.Name" xml:space="preserve">
+    <value>xrl_NGAY_BNN</value>
+  </metadata>
+  <metadata name="xrl_MA_NGACH.Name" xml:space="preserve">
+    <value>xrl_MA_NGACH</value>
+  </metadata>
+  <metadata name="xrl_NGAY_TUYENDUNG_CT.Name" xml:space="preserve">
+    <value>xrl_NGAY_TUYENDUNG_CT</value>
+  </metadata>
+  <metadata name="xrc_TUYENTHANG.Name" xml:space="preserve">
+    <value>xrc_TUYENTHANG</value>
+  </metadata>
+  <metadata name="xrc_DACCACH.Name" xml:space="preserve">
+    <value>xrc_DACCACH</value>
+  </metadata>
+  <metadata name="xrc_XETTUYEN.Name" xml:space="preserve">
+    <value>xrc_XETTUYEN</value>
+  </metadata>
+  <metadata name="xrc_THITUYEN.Name" xml:space="preserve">
+    <value>xrc_THITUYEN</value>
+  </metadata>
+  <metadata name="xrl_NGAY_TUYEN_DAUTIEN.Name" xml:space="preserve">
+    <value>xrl_NGAY_TUYEN_DAUTIEN</value>
+  </metadata>
+  <metadata name="xrLabel15.Name" xml:space="preserve">
+    <value>xrLabel15</value>
+  </metadata>
+  <metadata name="xrl_THEO_DV_HC.Name" xml:space="preserve">
+    <value>xrl_THEO_DV_HC</value>
+  </metadata>
+  <metadata name="xrl_THEO_HS_GOC.Name" xml:space="preserve">
+    <value>xrl_THEO_HS_GOC</value>
+  </metadata>
+  <metadata name="xrl_NGAYSINH.Name" xml:space="preserve">
+    <value>xrl_NGAYSINH</value>
+  </metadata>
+  <metadata name="xrc_NU.Name" xml:space="preserve">
+    <value>xrc_NU</value>
+  </metadata>
+  <metadata name="xrc_NAM.Name" xml:space="preserve">
+    <value>xrc_NAM</value>
+  </metadata>
+  <metadata name="xrl_TRINHDO.Name" xml:space="preserve">
+    <value>xrl_TRINHDO</value>
+  </metadata>
+  <metadata name="xrLabel11.Name" xml:space="preserve">
+    <value>xrLabel11</value>
+  </metadata>
+  <metadata name="xrLabel10.Name" xml:space="preserve">
+    <value>xrLabel10</value>
+  </metadata>
+  <metadata name="xrLabel8.Name" xml:space="preserve">
+    <value>xrLabel8</value>
+  </metadata>
+  <metadata name="xrLabel7.Name" xml:space="preserve">
+    <value>xrLabel7</value>
+  </metadata>
+  <metadata name="xrl_NOI_SINH.Name" xml:space="preserve">
+    <value>xrl_NOI_SINH</value>
+  </metadata>
+  <metadata name="xrl_GIOI_TINH.Name" xml:space="preserve">
+    <value>xrl_GIOI_TINH</value>
+  </metadata>
+  <metadata name="xrl_NOICAP_CMND.Name" xml:space="preserve">
+    <value>xrl_NOICAP_CMND</value>
+  </metadata>
+  <metadata name="xrl_SO_CMND.Name" xml:space="preserve">
+    <value>xrl_SO_CMND</value>
+  </metadata>
+  <metadata name="xrl_LOAI_CS.Name" xml:space="preserve">
+    <value>xrl_LOAI_CS</value>
+  </metadata>
+  <metadata name="xrl_NGAYCAP_CMND.Name" xml:space="preserve">
+    <value>xrl_NGAYCAP_CMND</value>
+  </metadata>
+  <metadata name="xrl_SO_THE_BHXH.Name" xml:space="preserve">
+    <value>xrl_SO_THE_BHXH</value>
+  </metadata>
+  <metadata name="xrl_NGAYCAP_BHXH.Name" xml:space="preserve">
+    <value>xrl_NGAYCAP_BHXH</value>
+  </metadata>
+  <metadata name="xrl_TD_QUANLY.Name" xml:space="preserve">
+    <value>xrl_TD_QUANLY</value>
+  </metadata>
+  <metadata name="xrl_TD_CHINHTRI.Name" xml:space="preserve">
+    <value>xrl_TD_CHINHTRI</value>
+  </metadata>
+  <metadata name="xrl_TD_QLKT.Name" xml:space="preserve">
+    <value>xrl_TD_QLKT</value>
+  </metadata>
+  <metadata name="xrl_BAC_LUONG.Name" xml:space="preserve">
+    <value>xrl_BAC_LUONG</value>
+  </metadata>
+  <metadata name="xrl_NGAY_HUONG_LUONG.Name" xml:space="preserve">
+    <value>xrl_NGAY_HUONG_LUONG</value>
+  </metadata>
+  <metadata name="xrl_NGAY_HUONG_TNVK.Name" xml:space="preserve">
+    <value>xrl_NGAY_HUONG_TNVK</value>
+  </metadata>
+  <metadata name="xrl_PHUCAP_KHAC.Name" xml:space="preserve">
+    <value>xrl_PHUCAP_KHAC</value>
+  </metadata>
+  <metadata name="xrl_PHUCAP_CHUCVU.Name" xml:space="preserve">
+    <value>xrl_PHUCAP_CHUCVU</value>
+  </metadata>
+  <metadata name="xrl_PHUCAP_TNVK.Name" xml:space="preserve">
+    <value>xrl_PHUCAP_TNVK</value>
+  </metadata>
+  <metadata name="xrl_CHUCVU_DANG.Name" xml:space="preserve">
+    <value>xrl_CHUCVU_DANG</value>
+  </metadata>
+  <metadata name="xrl_HS_LUONG.Name" xml:space="preserve">
+    <value>xrl_HS_LUONG</value>
+  </metadata>
+  <metadata name="xrl_NOI_KN_DANG.Name" xml:space="preserve">
+    <value>xrl_NOI_KN_DANG</value>
+  </metadata>
+  <metadata name="xrl_NGAY_CT_VAO_DANG.Name" xml:space="preserve">
+    <value>xrl_NGAY_CT_VAO_DANG</value>
+  </metadata>
+  <metadata name="xrl_NGAY_VAO_DANG.Name" xml:space="preserve">
+    <value>xrl_NGAY_VAO_DANG</value>
+  </metadata>
+  <metadata name="xrl_CHUCVU_DOAN.Name" xml:space="preserve">
+    <value>xrl_CHUCVU_DOAN</value>
+  </metadata>
+  <metadata name="xrl_NOI_KN_DOAN.Name" xml:space="preserve">
+    <value>xrl_NOI_KN_DOAN</value>
+  </metadata>
+  <metadata name="xrl_NGAY_VAO_DOAN.Name" xml:space="preserve">
+    <value>xrl_NGAY_VAO_DOAN</value>
+  </metadata>
+  <metadata name="xrl_CAPBAC_QD.Name" xml:space="preserve">
+    <value>xrl_CAPBAC_QD</value>
+  </metadata>
+  <metadata name="xrl_CHUCVU_QD.Name" xml:space="preserve">
+    <value>xrl_CHUCVU_QD</value>
+  </metadata>
+  <metadata name="xrl_NGAY_RA_QD.Name" xml:space="preserve">
+    <value>xrl_NGAY_RA_QD</value>
+  </metadata>
+  <metadata name="xrl_EMAIL.Name" xml:space="preserve">
+    <value>xrl_EMAIL</value>
+  </metadata>
+  <metadata name="xrl_NGAY_TGCM.Name" xml:space="preserve">
+    <value>xrl_NGAY_TGCM</value>
+  </metadata>
+  <metadata name="xrl_NGAY_BN_NGACH.Name" xml:space="preserve">
+    <value>xrl_NGAY_BN_NGACH</value>
+  </metadata>
+  <metadata name="xrl_NGACH.Name" xml:space="preserve">
+    <value>xrl_NGACH</value>
+  </metadata>
+  <metadata name="xrl_NGAY_BN_CHUVU.Name" xml:space="preserve">
+    <value>xrl_NGAY_BN_CHUVU</value>
+  </metadata>
+  <metadata name="xrl_CHUCVU.Name" xml:space="preserve">
+    <value>xrl_CHUCVU</value>
+  </metadata>
+  <metadata name="xrl_CONGVIEC.Name" xml:space="preserve">
+    <value>xrl_CONGVIEC</value>
+  </metadata>
+  <metadata name="xrl_XEPLOAI.Name" xml:space="preserve">
+    <value>xrl_XEPLOAI</value>
+  </metadata>
+  <metadata name="xrl_NAM_TN.Name" xml:space="preserve">
+    <value>xrl_NAM_TN</value>
+  </metadata>
+  <metadata name="xrl_CHUYEN_NGANH.Name" xml:space="preserve">
+    <value>xrl_CHUYEN_NGANH</value>
+  </metadata>
+  <metadata name="xrl_TINHOC.Name" xml:space="preserve">
+    <value>xrl_TINHOC</value>
+  </metadata>
+  <metadata name="xrl_NGOAI_NGU.Name" xml:space="preserve">
+    <value>xrl_NGOAI_NGU</value>
+  </metadata>
+  <metadata name="xrl_CAN_NANG.Name" xml:space="preserve">
+    <value>xrl_CAN_NANG</value>
+  </metadata>
+  <metadata name="xrl_CHIEU_CAO.Name" xml:space="preserve">
+    <value>xrl_CHIEU_CAO</value>
+  </metadata>
+  <metadata name="xrl_NHOM_MAU.Name" xml:space="preserve">
+    <value>xrl_NHOM_MAU</value>
+  </metadata>
+  <metadata name="xrl_TT_SUCKHOE.Name" xml:space="preserve">
+    <value>xrl_TT_SUCKHOE</value>
+  </metadata>
+  <metadata name="xrl_TD_VH.Name" xml:space="preserve">
+    <value>xrl_TD_VH</value>
+  </metadata>
+  <metadata name="xrl_DT_COQUAN.Name" xml:space="preserve">
+    <value>xrl_DT_COQUAN</value>
+  </metadata>
+  <metadata name="xrl_DT_NHA.Name" xml:space="preserve">
+    <value>xrl_DT_NHA</value>
+  </metadata>
+  <metadata name="xrl_DI_DONG.Name" xml:space="preserve">
+    <value>xrl_DI_DONG</value>
+  </metadata>
+  <metadata name="xrl_HT_TUYEN.Name" xml:space="preserve">
+    <value>xrl_HT_TUYEN</value>
+  </metadata>
+  <metadata name="xrl_TON_GIAO.Name" xml:space="preserve">
+    <value>xrl_TON_GIAO</value>
+  </metadata>
+  <metadata name="xrl_NGAY_TUYEN_CHINH.Name" xml:space="preserve">
+    <value>xrl_NGAY_TUYEN_CHINH</value>
+  </metadata>
+  <metadata name="xrl_NGAY_TUYEN_DAU.Name" xml:space="preserve">
+    <value>xrl_NGAY_TUYEN_DAU</value>
+  </metadata>
+  <metadata name="xrl_HO_KHAU.Name" xml:space="preserve">
+    <value>xrl_HO_KHAU</value>
+  </metadata>
+  <metadata name="xrLabel13.Name" xml:space="preserve">
+    <value>xrLabel13</value>
+  </metadata>
+  <metadata name="xrl_DAN_TOC.Name" xml:space="preserve">
+    <value>xrl_DAN_TOC</value>
+  </metadata>
+  <metadata name="xrl_NOI_O_HIENNAY.Name" xml:space="preserve">
+    <value>xrl_NOI_O_HIENNAY</value>
+  </metadata>
+  <metadata name="xrl_TEN_KHAC.Name" xml:space="preserve">
+    <value>xrl_TEN_KHAC</value>
+  </metadata>
+  <metadata name="xrl_BI_DANH.Name" xml:space="preserve">
+    <value>xrl_BI_DANH</value>
+  </metadata>
+  <metadata name="xrl_TINH_THANH.Name" xml:space="preserve">
+    <value>xrl_TINH_THANH</value>
+  </metadata>
+  <metadata name="xrl_HO_TEN.Name" xml:space="preserve">
+    <value>xrl_HO_TEN</value>
+  </metadata>
+  <metadata name="xrl_NGAY_SINH.Name" xml:space="preserve">
+    <value>xrl_NGAY_SINH</value>
+  </metadata>
+  <metadata name="xrPictureBox1.Name" xml:space="preserve">
+    <value>xrPictureBox1</value>
+  </metadata>
+  <metadata name="TopMargin.Name" xml:space="preserve">
+    <value>TopMargin</value>
+  </metadata>
+  <metadata name="BottomMargin.Name" xml:space="preserve">
+    <value>BottomMargin</value>
+  </metadata>
+  <metadata name="DetailReport.Name" xml:space="preserve">
+    <value>DetailReport</value>
+  </metadata>
+  <metadata name="Detail1.Name" xml:space="preserve">
+    <value>Detail1</value>
+  </metadata>
+  <metadata name="xrsub_HOSO_QH_GIADINH.Name" xml:space="preserve">
+    <value>xrsub_HOSO_QH_GIADINH</value>
+  </metadata>
+  <metadata name="ReportHeader.Name" xml:space="preserve">
+    <value>ReportHeader</value>
+  </metadata>
+  <metadata name="xrl_TEN_HETHONG.Name" xml:space="preserve">
+    <value>xrl_TEN_HETHONG</value>
+  </metadata>
+  <metadata name="xrLabel5.Name" xml:space="preserve">
+    <value>xrLabel5</value>
+  </metadata>
+  <metadata name="xrLabel4.Name" xml:space="preserve">
+    <value>xrLabel4</value>
+  </metadata>
+  <metadata name="xrLabel3.Name" xml:space="preserve">
+    <value>xrLabel3</value>
+  </metadata>
+  <metadata name="ReportFooter.Name" xml:space="preserve">
+    <value>ReportFooter</value>
+  </metadata>
+  <metadata name="xrLabel115.Name" xml:space="preserve">
+    <value>xrLabel115</value>
+  </metadata>
+  <metadata name="xrtngayketxuat.Name" xml:space="preserve">
+    <value>xrtngayketxuat</value>
+  </metadata>
+  <metadata name="xrLabel113.Name" xml:space="preserve">
+    <value>xrLabel113</value>
+  </metadata>
+  <metadata name="PageHeader.Name" xml:space="preserve">
+    <value>PageHeader</value>
+  </metadata>
+  <metadata name="GroupHeader1.Name" xml:space="preserve">
+    <value>GroupHeader1</value>
+  </metadata>
+  <metadata name="GroupFooter1.Name" xml:space="preserve">
+    <value>GroupFooter1</value>
+  </metadata>
+  <metadata name="PageFooter.Name" xml:space="preserve">
+    <value>PageFooter</value>
+  </metadata>
+  <metadata name="xrPageInfo1.Name" xml:space="preserve">
+    <value>xrPageInfo1</value>
+  </metadata>
+  <metadata name="$this.Name" xml:space="preserve">
+    <value>rp_EmployeeDetail</value>
+  </metadata>
+</root>

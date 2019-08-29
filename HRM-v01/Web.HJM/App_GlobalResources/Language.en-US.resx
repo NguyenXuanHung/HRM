@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexTimeSheetHandlerType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexTimeSheetHandlerType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFunctionSuccess" xml:space="preserve">
+    <value>Add function successful</value>
+  </data>
+  <data name="bangchamcong" xml:space="preserve">
+    <value>Pay schedule</value>
+  </data>
+  <data name="cbx_chucvu" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="cbx_chuyennganh" xml:space="preserve">
+    <value>Speciality</value>
+  </data>
+  <data name="cbx_dantoc" xml:space="preserve">
+    <value>National</value>
+  </data>
+  <data name="cbx_dennam" xml:space="preserve">
+    <value>Year to</value>
+  </data>
+  <data name="cbx_GioiTinh" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="cbx_loaihopdong" xml:space="preserve">
+    <value>Contract type</value>
+  </data>
+  <data name="cbx_lydoroi" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="cbx_ngach" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="cbx_ngoaingu" xml:space="preserve">
+    <value>Foreign language</value>
+  </data>
+  <data name="cbx_phongban" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="cbx_quoctich" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="cbx_tinhoc" xml:space="preserve">
+    <value>Informatics</value>
+  </data>
+  <data name="cbx_tinhthanh" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="cbx_todoi" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="cbx_tongiao" xml:space="preserve">
+    <value>Religion</value>
+  </data>
+  <data name="cbx_trinhdo" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="cbx_truongdaotao" xml:space="preserve">
+    <value>University</value>
+  </data>
+  <data name="cbx_tunam" xml:space="preserve">
+    <value>Year from</value>
+  </data>
+  <data name="chk_daroidv" xml:space="preserve">
+    <value>Left agency</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="date_DenNgay" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="date_TuNgay" xml:space="preserve">
+    <value>Date From</value>
+  </data>
+  <data name="fls_donvi" xml:space="preserve">
+    <value>Search by agency</value>
+  </data>
+  <data name="LoadingMask" xml:space="preserve">
+    <value>Loading data....</value>
+  </data>
+  <data name="MenuChucNang" xml:space="preserve">
+    <value>MENU</value>
+  </data>
+  <data name="nam" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="NotifyUserName" xml:space="preserve">
+    <value>To login administrator system, you can use account {0} and password {1}</value>
+  </data>
+  <data name="nu" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait....</value>
+  </data>
+  <data name="rd_theonam" xml:space="preserve">
+    <value>Search by birth year</value>
+  </data>
+  <data name="rd_theotuoi" xml:space="preserve">
+    <value>Search by age</value>
+  </data>
+  <data name="rd_theo_ngaysinh" xml:space="preserve">
+    <value>By birthday</value>
+  </data>
+  <data name="rd_theo_ngayvaocongty" xml:space="preserve">
+    <value>By date joined company</value>
+  </data>
+  <data name="ResetPasswordSuccess" xml:space="preserve">
+    <value>Reset password successful</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="searching" xml:space="preserve">
+    <value>Searching....</value>
+  </data>
+  <data name="search_by" xml:space="preserve">
+    <value>Search by</value>
+  </data>
+  <data name="search_by_age" xml:space="preserve">
+    <value>Search by age/birth year</value>
+  </data>
+  <data name="search_by_level" xml:space="preserve">
+    <value>Search by level</value>
+  </data>
+  <data name="search_by_place_name" xml:space="preserve">
+    <value>Search by place name</value>
+  </data>
+  <data name="SetPermissionSuccess" xml:space="preserve">
+    <value>Set permission successful</value>
+  </data>
+  <data name="txt_dentuoi" xml:space="preserve">
+    <value>Age to</value>
+  </data>
+  <data name="txt_Tencanbo" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="txt_tu_tuoi" xml:space="preserve">
+    <value>Age from</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="warning_age" xml:space="preserve">
+    <value>Please input age from less than age to</value>
+  </data>
+  <data name="warning_year" xml:space="preserve">
+    <value>Please input year from less than year to</value>
+  </data>
+  <data name="wdAdvanceSearch" xml:space="preserve">
+    <value>Advance search</value>
+  </data>
+  <data name="about_software" xml:space="preserve">
+    <value>About Dsoft.HRM</value>
+  </data>
+  <data name="add_same_level_menu" xml:space="preserve">
+    <value>Add menu at the same level</value>
+  </data>
+  <data name="add_submenu" xml:space="preserve">
+    <value>Add new submenu</value>
+  </data>
+  <data name="authorization_category" xml:space="preserve">
+    <value>Authorization category</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="change_password" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="choose_authorization_category" xml:space="preserve">
+    <value>Choose authorization category</value>
+  </data>
+  <data name="choose_file" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="choose_icon" xml:space="preserve">
+    <value>Choose Icon</value>
+  </data>
+  <data name="choose_is_panel" xml:space="preserve">
+    <value>Choose Panel</value>
+  </data>
+  <data name="choose_module" xml:space="preserve">
+    <value>Choose module</value>
+  </data>
+  <data name="choose_parent_category" xml:space="preserve">
+    <value>Choose a parent category</value>
+  </data>
+  <data name="confirm_delete" xml:space="preserve">
+    <value>Are you want to delete?</value>
+  </data>
+  <data name="confirm_password" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="decentralized" xml:space="preserve">
+    <value>Decentralized</value>
+  </data>
+  <data name="decentralized_function" xml:space="preserve">
+    <value>Decentralized function</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="desks" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="determine_function" xml:space="preserve">
+    <value>Determine function</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="function_name" xml:space="preserve">
+    <value>Function name</value>
+  </data>
+  <data name="link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="menu_name" xml:space="preserve">
+    <value>Menu name</value>
+  </data>
+  <data name="name_identifiers" xml:space="preserve">
+    <value>Name identifiers</value>
+  </data>
+  <data name="new_password" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="old_password" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="saving" xml:space="preserve">
+    <value>Saving....</value>
+  </data>
+  <data name="select_authorization" xml:space="preserve">
+    <value>Choose authorization</value>
+  </data>
+  <data name="sorting" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="sort_list_function" xml:space="preserve">
+    <value>Sort the list of functions</value>
+  </data>
+  <data name="system" xml:space="preserve">
+    <value>SYSTEM</value>
+  </data>
+  <data name="tab_name" xml:space="preserve">
+    <value>Tab name</value>
+  </data>
+  <data name="thong_bao" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="update_close" xml:space="preserve">
+    <value>Update &amp; Close</value>
+  </data>
+  <data name="updating" xml:space="preserve">
+    <value>Updating....</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="warning_new_password_not_match" xml:space="preserve">
+    <value>New password do not match</value>
+  </data>
+  <data name="warning_not_fill_full_content" xml:space="preserve">
+    <value>You have not entered enough information</value>
+  </data>
+  <data name="xacdinh_phanquyen_chucnang" xml:space="preserve">
+    <value>Determine / Decentralized function</value>
+  </data>
+  <data name="access_diary" xml:space="preserve">
+    <value>Access diary</value>
+  </data>
+  <data name="blue_default" xml:space="preserve">
+    <value>Blue (Default)</value>
+  </data>
+  <data name="change_interface" xml:space="preserve">
+    <value>Change Interface</value>
+  </data>
+  <data name="close_all_tab" xml:space="preserve">
+    <value>Close All</value>
+  </data>
+  <data name="close_other_tab" xml:space="preserve">
+    <value>Close other tab</value>
+  </data>
+  <data name="close_tab" xml:space="preserve">
+    <value>Close Tab</value>
+  </data>
+  <data name="closing" xml:space="preserve">
+    <value>Closing system....</value>
+  </data>
+  <data name="confirm_close" xml:space="preserve">
+    <value>Are you want to close?</value>
+  </data>
+  <data name="feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>HELP</value>
+  </data>
+  <data name="manual" xml:space="preserve">
+    <value>User Manual</value>
+  </data>
+  <data name="register_product" xml:space="preserve">
+    <value>Register Product</value>
+  </data>
+  <data name="software_information" xml:space="preserve">
+    <value>Software information</value>
+  </data>
+  <data name="system_configuration_information" xml:space="preserve">
+    <value>System configuration information</value>
+  </data>
+  <data name="user_information" xml:space="preserve">
+    <value>User Information</value>
+  </data>
+  <data name="user_manager" xml:space="preserve">
+    <value>User Manager</value>
+  </data>
+  <data name="add_menu_successful" xml:space="preserve">
+    <value>Add new menu successful !</value>
+  </data>
+  <data name="change_password_successful" xml:space="preserve">
+    <value>Change password successful!</value>
+  </data>
+  <data name="delete_successful_refresh_page" xml:space="preserve">
+    <value>Delete successful! Please refresh page!</value>
+  </data>
+  <data name="email_error_forgot_password" xml:space="preserve">
+    <value>Username or email does not exist.</value>
+  </data>
+  <data name="email_notice_create_account" xml:space="preserve">
+    <value>Send email to user successful!</value>
+  </data>
+  <data name="email_notice_forgot_password" xml:space="preserve">
+    <value>Password has been sent to your email address</value>
+  </data>
+  <data name="email_title_create_account" xml:space="preserve">
+    <value>Create new account DSoftHRM</value>
+  </data>
+  <data name="email_title_forgot_password" xml:space="preserve">
+    <value>Change password DSoftHRM</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="exit_system" xml:space="preserve">
+    <value>Exit From System</value>
+  </data>
+  <data name="old_password_not_valid" xml:space="preserve">
+    <value>Old password is not valid</value>
+  </data>
+  <data name="software_online_system" xml:space="preserve">
+    <value>Human Resource Management System</value>
+  </data>
+  <data name="check_account" xml:space="preserve">
+    <value>Checking account....</value>
+  </data>
+  <data name="choose_argency" xml:space="preserve">
+    <value>Choose Argency</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="enter_email" xml:space="preserve">
+    <value>Enter your email</value>
+  </data>
+  <data name="enter_username" xml:space="preserve">
+    <value>Enter Username</value>
+  </data>
+  <data name="forgot_password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="handling" xml:space="preserve">
+    <value>Handling....</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="login_system" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="txt_get_password" xml:space="preserve">
+    <value>Get Password</value>
+  </data>
+  <data name="txt_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Trial Version</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="deleting" xml:space="preserve">
+    <value>Deleting...</value>
+  </data>
+  <data name="accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="commom_help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="enter_keyword" xml:space="preserve">
+    <value>Enter search keywords</value>
+  </data>
+  <data name="huong_dan" xml:space="preserve">
+    <value>Hepl</value>
+  </data>
+  <data name="not_selected_record" xml:space="preserve">
+    <value>You have not selected any records</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="selected_much_records" xml:space="preserve">
+    <value>You may only select one record</value>
+  </data>
+  <data name="select_department" xml:space="preserve">
+    <value>Select section</value>
+  </data>
+  <data name="sending_email_please_wait" xml:space="preserve">
+    <value>Sending. Please wait</value>
+  </data>
+  <data name="send_email" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="not_have_data" xml:space="preserve">
+    <value>Not found data</value>
+  </data>
+  <data name="inLyLichTrichNang" xml:space="preserve">
+    <value>Print CV</value>
+  </data>
+  <data name="print_cv" xml:space="preserve">
+    <value>Print CV</value>
+  </data>
+</root>

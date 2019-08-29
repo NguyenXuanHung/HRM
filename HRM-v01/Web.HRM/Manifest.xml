@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DSoftHRM>
+  <Timekeeper desc="Chấm công">
+    <SettingParameter desc="Thiết lập thông số">
+      <TimekeeperCondition desc="Thiết lập điều kiện chấm công">
+        <ShiftList desc="Danh sách ca làm việc">
+          
+        </ShiftList>
+      </TimekeeperCondition>
+    </SettingParameter>
+  </Timekeeper>
+  
+  <SalaryDecision desc="Quyết định lương">
+    <WindowsAdd desc="Cửa sổ thêm mới">
+      <ControlList>
+        <!-- Thông tin quyết định cũ -->
+        <Control id="txtSoQDCu" desc="Số quyết định" visible="true"></Control>
+        <Control id="txtTenQDCu" desc="Tên quyết định" visible="true"></Control>
+        <Control id="dfNgayQDCu" desc="Ngày quyết định" visible="true"></Control>
+        <Control id="txtNguoiQDCu" desc="Người quyết định" visible="true"></Control>
+        <Control id="dfNgayCoHieuLucCu" desc="Ngày hiệu lực" visible="true"></Control>
+        <Control id="cbxNgachCu" desc="Ngạch" visible="true"></Control>
+        <Control id="txtBacLuongCu" desc="Bậc lương" visible="true"></Control>
+        <Control id="txtHeSoLuongCu" desc="Hệ số lương" visible="true"></Control>
+        <Control id="txtMucLuongCu" desc="Mức lương" visible="true"></Control>
+        <Control id="txtLuongDongBHCu" desc="Lương đóng BH" visible="true"></Control>
+        <Control id="txtPhuCapKhacCu" desc="Phụ cấp khác" visible="false"></Control>
+        <Control id="cbxLoaiLuongCu" desc="Loại lương" visible="true"></Control>
+        <!-- Thông tin quyết định mới -->
+        <Control id="txtSoQDMoi" desc="Số quyết định mới" visible="true"></Control>
+        <Control id="dfNgayQDMoi" desc="Ngày quyết định mới" visible="true"></Control>
+        <Control id="txtTenQDMoi" desc="Tên quyết định mới" visible="true"></Control>
+        <Control id="dfNgayHieuLucMoi" desc="Ngày hiệu lực mới" visible="true"></Control>
+        <Control id="cbxChonNguoiQuyetDinh" desc="Người QĐ" visible="true"></Control>
+        <!--<Control id="dfNgayHetHieuLucMoi" desc="Ngày hết hiệu lực" visible="true"></Control>-->
+        <Control id="cbTrangThaiMoi" desc="Trạng thái mới" visible="true"></Control>
+        <Control id="composifieldAttach" desc="Chọn tệp tin" visible="true"></Control>
+        <Control id="txtGhiChuMoi" desc="Ghi chú mới" visible="true"></Control>
+        <!-- Thông tin lương mới -->
+        <Control id="cbx_ngachMoi" desc="Ngạch mới" visible="true"></Control>
+        <Control id="txtHeSoLuongMoi" desc="Hệ số lương mới" visible="true"></Control>
+        <Control id="txtLuongDongBHMoi" desc="Lương đóng BH mới" visible="true"></Control>
+        <Control id="txtBacLuongNBMoi" desc="Bậc lương NB mới" visible="false"></Control>
+        <Control id="txtPhuCapKhacMoi" desc="Phụ cấp khác mới" visible="true"></Control>
+        <Control id="txtPhuCapChucVuMoi" desc="Phụ cấp chức vụ mới" visible="true"></Control>
+        <Control id="cbxBacMoi" desc="Bậc lương mới" visible="true"></Control>
+        <Control id="txtMucLuongMoi" desc="Mức lương mới" visible="true"></Control>
+        <Control id="dfNgayHLMoi" desc="Ngày hưởng lương mới" visible="true"></Control>
+        <Control id="dfNgayHLNBMoi" desc="Ngày HL nội bộ mới" visible="false"></Control>
+        <Control id="cbLoaiLuong" desc="Loại lương mới" visible="true"></Control>
+
+        <Control id="chkSuDungPhuCapCu" desc="" visible="true"></Control>
+      </ControlList>
+    </WindowsAdd>
+    <WindowsMultipleAdd desc="Cửa sổ thêm mới hàng loạt">
+      <ControlList>
+        <Control id="txtSoQDHL" desc="Số quyết định" visible="true"></Control>
+        <Control id="dfNgayQDHL" desc="Ngày quyết định" visible="true"></Control>
+        <Control id="txtTenQDHL" desc="Tên quyết định" visible="true"></Control>
+        <Control id="dfNgayHieuLucHL" desc="Ngày hiệu lực" visible="true"></Control>
+        <Control id="cbxNguoiQuyetDinhHL" desc="Người quyết định" visible="true"></Control>
+        <!--<Control id="dfNgayHetHieuLucHL" desc="Ngày hết hiệu lực" visible="true"></Control>-->
+        <Control id="cbxTrangThaiQDHL" desc="Trạng thái quyết định" visible="true"></Control>
+        <Control id="cpfAttachHL" desc="Tệp tin đính kèm" visible="true"></Control>
+        <Control id="txtGhiChuHL" desc="Ghi chú" visible="true"></Control>
+        <Control id="cbxNgachHL" desc="Ngạch" visible="true"></Control>
+        <Control id="txtHeSoLuongHL" desc="Hệ số lương" visible="true"></Control>
+        <Control id="txtLuongDongBHHL" desc="Lương đóng bảo hiểm" visible="true"></Control>
+        <Control id="txtBacLuongNBHL" desc="Bậc lương" visible="false"></Control>
+        <Control id="txtPhuCapKhacHL" desc="Phụ cấp khác" visible="true"></Control>
+        <Control id="txtPhuCapChucVuHL" desc="Phụ cấp chức vụ" visible="true"></Control>
+        
+        <Control id="cbxBacLuongHL" desc="Bậc lương" visible="true"></Control>
+        <Control id="txtMucLuongHL" desc="Mức lương" visible="true"></Control>
+        <Control id="dfNgayHuongLuongHL" desc="Ngày hưởng lương" visible="true"></Control>
+        <Control id="dfNgayHuongLuongNBHL" desc="Ngày hưởng lương nội bộ" visible="false"></Control>
+        <Control id="cbxLoaiLuongHL" desc="Loại lương" visible="true"></Control>
+      </ControlList>
+    </WindowsMultipleAdd>
+  </SalaryDecision>
+</DSoftHRM>

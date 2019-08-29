@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexTimeSheetHandlerType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexTimeSheetHandlerType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="birthdays_staff" xml:space="preserve">
+    <value>Thông báo sinh nhật</value>
+  </data>
+  <data name="chart" xml:space="preserve">
+    <value>Biểu đồ</value>
+  </data>
+  <data name="chart_by_age" xml:space="preserve">
+    <value>Thống kê CBCC theo độ tuổi</value>
+  </data>
+  <data name="chart_by_city" xml:space="preserve">
+    <value>Thống kê CBCC theo tỉnh thành</value>
+  </data>
+  <data name="chart_by_contract_type" xml:space="preserve">
+    <value>Thống kê CBCC theo loại hợp đồng</value>
+  </data>
+  <data name="chart_by_ethnicity" xml:space="preserve">
+    <value>Thống kê CBCC theo dân tộc</value>
+  </data>
+  <data name="chart_by_fluctuation" xml:space="preserve">
+    <value>Biểu đồ biến động CBCC</value>
+  </data>
+  <data name="chart_by_gender" xml:space="preserve">
+    <value>Thống kê CBCC theo giới tính</value>
+  </data>
+  <data name="chart_by_length_of_service" xml:space="preserve">
+    <value>Thống kê theo thâm niên công tác</value>
+  </data>
+  <data name="chart_by_level" xml:space="preserve">
+    <value>Thống kê CBCC theo trình độ</value>
+  </data>
+  <data name="chart_by_marriage_status" xml:space="preserve">
+    <value>Thống kê CBCC theo tình trạng hôn nhân</value>
+  </data>
+  <data name="chart_by_military_grade" xml:space="preserve">
+    <value>Thống kê CBCC theo cấp bậc quân đội</value>
+  </data>
+  <data name="chart_by_natinonality" xml:space="preserve">
+    <value>Thống kê CBCC theo quốc tịch</value>
+  </data>
+  <data name="chart_by_party_office" xml:space="preserve">
+    <value>Thống kê CBCC theo chức vụ đảng</value>
+  </data>
+  <!--<data name="chart_by_reason_for_leaving" xml:space="preserve">
+    <value>Thống kê lý do nghỉ việc</value>
+  </data>-->
+  <data name="chart_by_religion" xml:space="preserve">
+    <value>Thống kê CBCC theo tôn giáo</value>
+  </data>
+  <data name="chart_by_section" xml:space="preserve">
+    <value>Thống kê CBCC theo bộ phận</value>
+  </data>
+  <data name="chart_by_union_office" xml:space="preserve">
+    <value>Thống kê CBCC theo chức vụ đoàn</value>
+  </data>
+  <data name="chart_by_unit" xml:space="preserve">
+    <value>Thống kê CBCC theo đơn vị</value>
+  </data>
+  <data name="chart_expand" xml:space="preserve">
+    <value>Biểu đồ mở rộng</value>
+  </data>
+  <data name="confirm_set_default" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn đặt biểu đồ này làm mặc định?</value>
+  </data>
+  <data name="email_not_found" xml:space="preserve">
+    <value>Không có thông tin về địa chỉ mail của nhân viên</value>
+  </data>
+  <data name="enter_code_or_name" xml:space="preserve">
+    <value>Nhập mã cán bộ hoặc họ tên</value>
+  </data>
+  <data name="expansion" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="expiration_date" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="guild_search_desktop" xml:space="preserve">
+    <value>Bạn có thể tìm kiếm theo mã cán bộ, họ tên(có thể không cần dấu tiếng việt), số điện thoại, số CMT hoặc địa chỉ email</value>
+  </data>
+  <data name="labour_table" xml:space="preserve">
+    <value>Bảng chấm công</value>
+  </data>
+  <data name="no_select_labour_table" xml:space="preserve">
+    <value>Chưa chọn bảng chấm công</value>
+  </data>
+  <data name="out_of_contract" xml:space="preserve">
+    <value>Cán bộ sắp hết hạn hợp đồng</value>
+  </data>
+  <data name="print_list" xml:space="preserve">
+    <value>In danh sách</value>
+  </data>
+  <data name="quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="report_staff_birthday" xml:space="preserve">
+    <value>Báo cáo danh sách cán bộ sinh nhật trong tháng</value>
+  </data>
+  <data name="report_staff_profile" xml:space="preserve">
+    <value>Báo cáo hồ sơ cán bộ</value>
+  </data>
+  <data name="search_quick_staff_info" xml:space="preserve">
+    <value>Tra cứu nhanh thông tin CBCCVC</value>
+  </data>
+  <data name="select_labour_table" xml:space="preserve">
+    <value>Chọn bảng chấm công</value>
+  </data>
+  <data name="select_staff_and_report" xml:space="preserve">
+    <value>Chọn lấy một cán bộ sau đó ấn báo cáo để in ra thông tin cá nhân</value>
+  </data>
+  <data name="select_type_of_chart" xml:space="preserve">
+    <value>Chọn loại biểu đồ</value>
+  </data>
+  <data name="select_year" xml:space="preserve">
+    <value>Chọn năm</value>
+  </data>
+  <data name="set_default_chart" xml:space="preserve">
+    <value>Đặt làm biểu đồ mặc định</value>
+  </data>
+  <data name="signing_date" xml:space="preserve">
+    <value>Ngày ký</value>
+  </data>
+  <data name="staff" xml:space="preserve">
+    <value>Cán bộ</value>
+  </data>
+  <data name="start_time" xml:space="preserve">
+    <value>Giờ vào</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="symbol" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="tool" xml:space="preserve">
+    <value>Công cụ</value>
+  </data>
+  <data name="view_fullscreen" xml:space="preserve">
+    <value>Bấm vào đây để xem toàn màn hình</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="working_status" xml:space="preserve">
+    <value>Tình trạng làm việc</value>
+  </data>
+  <data name="work_status" xml:space="preserve">
+    <value>Tình trạng làm việc</value>
+  </data>
+</root>

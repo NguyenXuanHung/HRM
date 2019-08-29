@@ -1,0 +1,85 @@
+﻿#SouthHoSoNhanSu1_hsImage
+{
+    border: 1px solid #99bbe8 !important;
+}
+#img_anhdaidien
+{
+    border: 1px solid #99bbe8 !important;
+}
+
+div#TreeCoCauToChuc .x-panel-body
+{
+    background-color: #fff !important;
+}
+
+#grp_HoSoNhanSu
+{
+    border-left: 1px solid #99bbe8;
+}
+
+#fd
+{
+    border-left: 1px solid #99bbe8;
+}
+
+#SouthHoSoNhanSu1_GridPanelPhuCap
+{
+    border-bottom: 1px solid #99bbe8;
+}
+
+.highlight
+{
+    background: yellow;
+}
+.combo-selected
+{
+    background: red !important;
+    color: White;
+    font-weight: bold !important;
+}
+div#pnlCoCauToChuc-xsplit
+{
+    border-right: none !important;
+}
+
+.style1
+{
+    height: 165px;
+    width: 118px;
+}
+/*Ẩn thanh tab ở window report*/
+div#pnReportPanel .x-tab-panel-header
+{
+    display: none !important;
+}
+
+.panelGeneralInformation .x-panel-body
+{
+    background: #DFE8F6 !important;
+}
+
+.hsImage
+{
+    position: absolute;
+    left: 0px;
+}
+
+div#TabPanelExcel .x-tab-panel-header
+{
+    display: none !important;
+}
+
+.bkGround .x-tab-panel-body
+{
+    background: #DFE8F6 !important;
+}
+/*Khi text dài thì cho phép GridPanel xuống dòng*/
+div#grp_HoSoNhanSu .x-grid3-cell-inner, div#grp_HoSoNhanSu .x-grid3-hd-inner
+{
+    white-space: nowrap !important;
+}
+
+#SouthHoSoNhanSu1_TabPanelBottom
+{
+    border-top: 1px solid #8DB2E3 !important;
+}

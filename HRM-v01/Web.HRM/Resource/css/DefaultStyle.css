@@ -1,0 +1,117 @@
+﻿#sortable
+{
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    width: 60%;
+    text-align: left;
+}
+#sortable li
+{
+    margin: 10px 3px 3px;
+    padding: 3px;
+    border: solid 1px #ccc;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: move;
+    background-color: #F9F9F9;
+    font-weight: bold;
+}
+.ad
+{
+    background-image: url(add.png) !important;
+}
+/************MENU TRÁI************/
+.BaoCao
+{
+    background-image: url(../iconMenu/chart.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+}
+.Money
+{
+    background-image: url(../iconMenu/Money.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.List
+{
+    background-image: url(../iconMenu/List.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.chamcong
+{
+    background-image: url(../iconMenu/chamcong.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.Insurrance
+{
+    background-image: url(../iconMenu/Insurrance.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.DanhGia
+{
+    background-image: url(../iconMenu/DanhGia.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.kehoach
+{
+    background-image: url(../iconMenu/kehoach.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.tuyendung
+{
+    background-image: url(../iconMenu/vali.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+.Employee
+{
+    background-image: url(../iconMenu/employee.png) !important;
+    height: 26px !important;
+    margin-right: 6px !important;
+    margin-top: -4px !important;
+    width: 26px !important;
+} 
+/*chỉnh chiều cao của menu dọc*/
+.x-panel-header
+{
+    height: 26px !important;
+    font-weight: bold;
+    line-height: 26px !important; 
+}
+/*
+#ext-gen467
+{
+    height:18px !important;
+    line-height:18px !important;
+}
+#ext-gen471
+{
+    margin-top:0px !important;
+}*/
+.x-tool-toggle
+{
+    margin-top:5px !important;
+}

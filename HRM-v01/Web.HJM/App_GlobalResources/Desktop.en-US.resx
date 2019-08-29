@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexTimeSheetHandlerType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexTimeSheetHandlerType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="birthdays_staff" xml:space="preserve">
+    <value>Birthdays staff</value>
+  </data>
+  <data name="chart" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="chart_by_age" xml:space="preserve">
+    <value>Personnel statistics by age</value>
+  </data>
+  <data name="chart_by_city" xml:space="preserve">
+    <value>Personnel statistics by city/province</value>
+  </data>
+  <data name="chart_by_contract_type" xml:space="preserve">
+    <value>Personnel statistics by contract type</value>
+  </data>
+  <data name="chart_by_ethnicity" xml:space="preserve">
+    <value>Personnel statistics by ethnicity</value>
+  </data>
+  <data name="chart_by_fluctuation" xml:space="preserve">
+    <value>Personnel fluctuation chart</value>
+  </data>
+  <data name="chart_by_gender" xml:space="preserve">
+    <value>Personnel statistics by gender</value>
+  </data>
+  <data name="chart_by_length_of_service" xml:space="preserve">
+    <value>Statistics by length of service</value>
+  </data>
+  <data name="chart_by_level" xml:space="preserve">
+    <value>Personnel statistics by level</value>
+  </data>
+  <data name="chart_by_marriage_status" xml:space="preserve">
+    <value>Personnel statistics by marriage status</value>
+  </data>
+  <data name="chart_by_military_grade" xml:space="preserve">
+    <value>Personnel statistics by military grade</value>
+  </data>
+  <data name="chart_by_natinonality" xml:space="preserve">
+    <value>Personnel statistics by natinonality</value>
+  </data>
+  <data name="chart_by_party_office" xml:space="preserve">
+    <value>Personnel statistics by party office</value>
+  </data>
+  <data name="chart_by_reason_for_leaving" xml:space="preserve">
+    <value>Statistics by reason for leaving</value>
+  </data>
+  <data name="chart_by_religion" xml:space="preserve">
+    <value>Personnel statistics by religion</value>
+  </data>
+  <data name="chart_by_section" xml:space="preserve">
+    <value>Personnel statistics by section</value>
+  </data>
+  <data name="chart_by_union_office" xml:space="preserve">
+    <value>Personnel statistics by union office</value>
+  </data>
+  <data name="chart_by_unit" xml:space="preserve">
+    <value>Personnel statistics by unit</value>
+  </data>
+  <data name="chart_expand" xml:space="preserve">
+    <value>Chart Expanded</value>
+  </data>
+  <data name="confirm_set_default" xml:space="preserve">
+    <value>Do you want to set this as the default chart?</value>
+  </data>
+  <data name="email_not_found" xml:space="preserve">
+    <value>Staff don't have email address</value>
+  </data>
+  <data name="enter_code_or_name" xml:space="preserve">
+    <value>Enter staff code or staff name</value>
+  </data>
+  <data name="expansion" xml:space="preserve">
+    <value>Expansion</value>
+  </data>
+  <data name="expiration_date" xml:space="preserve">
+    <value>Expiration date</value>
+  </data>
+  <data name="guild_search_desktop" xml:space="preserve">
+    <value>You can search by staff code, staff name, phone number or email address</value>
+  </data>
+  <data name="labour_table" xml:space="preserve">
+    <value>Labour table</value>
+  </data>
+  <data name="no_select_labour_table" xml:space="preserve">
+    <value>Not yet select labour table</value>
+  </data>
+  <data name="out_of_contract" xml:space="preserve">
+    <value>Out of contract in month</value>
+  </data>
+  <data name="print_list" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="report_staff_birthday" xml:space="preserve">
+    <value>report for staff's birthday in month</value>
+  </data>
+  <data name="report_staff_profile" xml:space="preserve">
+    <value>Report staff profile</value>
+  </data>
+  <data name="search_quick_staff_info" xml:space="preserve">
+    <value>Search more quickly staff information</value>
+  </data>
+  <data name="select_labour_table" xml:space="preserve">
+    <value>Select labour table</value>
+  </data>
+  <data name="select_staff_and_report" xml:space="preserve">
+    <value>Select staff and click report</value>
+  </data>
+  <data name="select_type_of_chart" xml:space="preserve">
+    <value>Select type of chart</value>
+  </data>
+  <data name="select_year" xml:space="preserve">
+    <value>Chọn năm</value>
+  </data>
+  <data name="set_default_chart" xml:space="preserve">
+    <value>Set as default chart</value>
+  </data>
+  <data name="signing_date" xml:space="preserve">
+    <value>Signing date</value>
+  </data>
+  <data name="staff" xml:space="preserve">
+    <value>Staffs</value>
+  </data>
+  <data name="start_time" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="tool" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="view_fullscreen" xml:space="preserve">
+    <value>Click to view full screen</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="working_status" xml:space="preserve">
+    <value>Working status</value>
+  </data>
+  <data name="work_status" xml:space="preserve">
+    <value>Work status</value>
+  </data>
+</root>

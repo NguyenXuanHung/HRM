@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67FAC5D0-F3AC-4B28-975E-4ADB6D7A1C82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web.Core.Framework</RootNamespace>
+    <AssemblyName>Web.Core.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.0.0\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.0.0\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v15.1.Core">
+      <HintPath>..\Libs\DevExpress.Charts.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.1">
+      <HintPath>..\Libs\DevExpress.Data.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.1.Core">
+      <HintPath>..\Libs\DevExpress.Printing.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v15.1">
+      <HintPath>..\Libs\DevExpress.Web.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.1">
+      <HintPath>..\Libs\DevExpress.XtraCharts.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v15.1">
+      <HintPath>..\Libs\DevExpress.XtraPivotGrid.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.1">
+      <HintPath>..\Libs\DevExpress.XtraReports.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.1.Web">
+      <HintPath>..\Libs\DevExpress.XtraReports.v15.1.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net">
+      <HintPath>..\Libs\Ext.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities">
+      <HintPath>..\Libs\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-Q16-AnyCPU, Version=7.9.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magick.NET-Q16-AnyCPU.7.9.0.1\lib\net40\Magick.NET-Q16-AnyCPU.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20">
+      <HintPath>..\Libs\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz, Version=3.0.7.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.3.0.7\lib\net452\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="SoftCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\SoftCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SX">
+      <HintPath>..\Libs\SX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebUI">
+      <HintPath>..\Libs\WebUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseControl\BaseHandler.cs" />
+    <Compile Include="BaseControl\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseControl\BaseTask.cs" />
+    <Compile Include="BaseControl\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\BorderLayout.cs" />
+    <Compile Include="Common\Constant.cs" />
+    <Compile Include="Common\Resource.cs" />
+    <Compile Include="Common\XMLProcess.cs" />
+    <Compile Include="Controller\Catalog\CatalogWorkStatusController.cs" />
+    <Compile Include="Controller\HumanRecord\AbilityController.cs" />
+    <Compile Include="Controller\HumanRecord\DecisionController.cs" />
+    <Compile Include="Controller\HumanRecord\InsuranceController.cs" />
+    <Compile Include="Controller\Kpi\ArgumentController.cs" />
+    <Compile Include="Controller\Kpi\CriterionController.cs" />
+    <Compile Include="Controller\Kpi\EmployeeArgumentController.cs" />
+    <Compile Include="Controller\Kpi\EvaluationController.cs" />
+    <Compile Include="Controller\Kpi\CriterionGroupController.cs" />
+    <Compile Include="Controller\Kpi\GroupKpiController.cs" />
+    <Compile Include="Controller\Recruitment\CandidateController.cs" />
+    <Compile Include="Controller\Recruitment\CandidateInterviewController.cs" />
+    <Compile Include="Controller\Recruitment\InterviewController.cs" />
+    <Compile Include="Controller\Recruitment\RequiredRecruitmentController.cs" />
+    <Compile Include="Controller\Salary\PayrollInfoController.cs" />
+    <Compile Include="Controller\Salary\SalaryBoardDynamicColumnController.cs" />
+    <Compile Include="Controller\TimeSheet\AnnualLeaveConfigureController.cs" />
+    <Compile Include="Controller\Catalog\CatalogAllowanceController.cs" />
+    <Compile Include="Controller\Catalog\CatalogQuantumController.cs" />
+    <Compile Include="Controller\Catalog\CatalogGroupQuantumController.cs" />
+    <Compile Include="Controller\Catalog\CatalogLocationController.cs" />
+    <Compile Include="Controller\Catalog\CatalogContractTypeController.cs" />
+    <Compile Include="Controller\Catalog\CatalogHolidayController.cs" />
+    <Compile Include="Controller\Catalog\CatalogFolkController.cs" />
+    <Compile Include="Controller\Catalog\CatalogRelationshipController.cs" />
+    <Compile Include="Controller\HumanRecord\FluctuationInsuranceController.cs" />
+    <Compile Include="Controller\HumanRecord\FluctuationEmployeeController.cs" />
+    <Compile Include="Controller\Salary\SalaryAllowanceController.cs" />
+    <Compile Include="Controller\Security\MenuController.cs" />
+    <Compile Include="Controller\Report\ReportSourceController.cs" />
+    <Compile Include="Controller\Report\ReportColumnController.cs" />
+    <Compile Include="Controller\Report\ReportController.cs" />
+    <Compile Include="Controller\Report\ReportDynamicController.cs" />
+    <Compile Include="Controller\Security\SystemLogController.cs" />
+    <Compile Include="Controller\TimeSheet\AnnualLeaveHistoryController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetCodeController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetEmployeeReportController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetGroupSymbolController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetLogController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetSymbolController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetEventController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetMachineController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetEmployeeGroupWorkShiftController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetReportController.cs" />
+    <Compile Include="Controller\Catalog\CatalogBasicSalaryController.cs" />
+    <Compile Include="Controller\Salary\SalaryBoardConfigController.cs" />
+    <Compile Include="Controller\Salary\SalaryBoardInfoController.cs" />
+    <Compile Include="Controller\Salary\PayrollController.cs" />
+    <Compile Include="Controller\Security\SchedulerController.cs" />
+    <Compile Include="Controller\HumanRecord\TeamController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetGroupWorkShiftController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetWorkShiftTemplateController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetWorkShiftController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetRuleWrongTimeController.cs" />
+    <Compile Include="Controller\TimeSheet\TimeSheetController.cs" />
+    <Compile Include="Controller\HumanRecord\BusinessHistoryController.cs" />
+    <Compile Include="Controller\HumanRecord\AssetController.cs" />
+    <Compile Include="Controller\Security\AttachFileController.cs" />
+    <Compile Include="Controller\HumanRecord\BankController.cs" />
+    <Compile Include="Controller\Catalog\CatalogController.cs" />
+    <Compile Include="Controller\HumanRecord\CertificateController.cs" />
+    <Compile Include="Controller\HumanRecord\ContractController.cs" />
+    <Compile Include="Controller\HumanRecord\DelegateController.cs" />
+    <Compile Include="Controller\HumanRecord\DisciplineController.cs" />
+    <Compile Include="Controller\HumanRecord\EducationHistoryController.cs" />
+    <Compile Include="Controller\HumanRecord\FamilyRelationshipController.cs" />
+    <Compile Include="Controller\HumanRecord\GoAboardController.cs" />
+    <Compile Include="Controller\HumanRecord\LanguageController.cs" />
+    <Compile Include="Controller\HumanRecord\RecordController.cs" />
+    <Compile Include="Controller\HumanRecord\DisciplineDepartmentController.cs" />
+    <Compile Include="Controller\HumanRecord\RewardDepartmentController.cs" />
+    <Compile Include="Controller\HumanRecord\RewardController.cs" />
+    <Compile Include="Controller\Salary\SalaryDecisionController.cs" />
+    <Compile Include="Controller\Catalog\CatalogGroupQuantumGradeController.cs" />
+    <Compile Include="Controller\Security\SystemConfigController.cs" />
+    <Compile Include="Controller\HumanRecord\TrainingHistoryController.cs" />
+    <Compile Include="Controller\HumanRecord\WorkHistoryController.cs" />
+    <Compile Include="Controller\HumanRecord\WorkProcessController.cs" />
+    <Compile Include="Interface\IBaseReport.cs" />
+    <Compile Include="Model\Base\BaseModel.cs" />
+    <Compile Include="Model\Base\ListItemModel.cs" />
+    <Compile Include="Model\Catalog\CatalogAllowanceModel.cs" />
+    <Compile Include="Model\Catalog\CatalogGroupQuantumGradeModel.cs" />
+    <Compile Include="Model\Catalog\CatalogQuantumModel.cs" />
+    <Compile Include="Model\Catalog\CatalogGroupQuantumModel.cs" />
+    <Compile Include="Model\Catalog\CatalogLocationModel.cs" />
+    <Compile Include="Model\Catalog\CatalogContractTypeModel.cs" />
+    <Compile Include="Model\Catalog\CatalogHolidayModel.cs" />
+    <Compile Include="Model\Catalog\CatalogFolkModel.cs" />
+    <Compile Include="Model\Catalog\CatalogRelationshipModel .cs" />
+    <Compile Include="Model\Catalog\CatalogWorkStatusModel.cs" />
+    <Compile Include="Model\HumanRecord\AssetModel.cs" />
+    <Compile Include="Model\HumanRecord\BusinessHistoryModel.cs" />
+    <Compile Include="Model\HumanRecord\CertificateModel.cs" />
+    <Compile Include="Model\HumanRecord\ContractModel.cs" />
+    <Compile Include="Model\HumanRecord\DisciplineDepartmentModel.cs" />
+    <Compile Include="Model\HumanRecord\DisciplineModel.cs" />
+    <Compile Include="Model\HumanRecord\EducationHistoryModel.cs" />
+    <Compile Include="Model\HumanRecord\DecisionModel.cs" />
+    <Compile Include="Model\HumanRecord\FamilyRelationshipModel.cs" />
+    <Compile Include="Model\HumanRecord\FluctuationEmployeeModel.cs" />
+    <Compile Include="Model\HumanRecord\FluctuationInsuranceModel.cs" />
+    <Compile Include="Model\HumanRecord\GoAboardModel.cs" />
+    <Compile Include="Model\HumanRecord\InsuranceDetailModel.cs" />
+    <Compile Include="Model\HumanRecord\InsuranceDisplayModel.cs" />
+    <Compile Include="Model\HumanRecord\InsuranceModel.cs" />
+    <Compile Include="Model\HumanRecord\RewardDepartmentModel.cs" />
+    <Compile Include="Model\HumanRecord\RewardModel.cs" />
+    <Compile Include="Model\HumanRecord\TrainingHistoryModel.cs" />
+    <Compile Include="Model\HumanRecord\WorkHistoryModel.cs" />
+    <Compile Include="Model\HumanRecord\WorkProcessModel.cs" />
+    <Compile Include="Model\Kpi\ArgumentCalculateCodeModel.cs" />
+    <Compile Include="Model\Kpi\CriterionDetailModel.cs" />
+    <Compile Include="Model\Kpi\ArgumentDetailModel.cs" />
+    <Compile Include="Model\Kpi\ArgumentModel.cs" />
+    <Compile Include="Model\Kpi\CriterionFormulaModel.cs" />
+    <Compile Include="Model\Kpi\CriterionModel.cs" />
+    <Compile Include="Model\Kpi\EvaluationDisplayModel.cs" />
+    <Compile Include="Model\Kpi\EmployeeArgumentDisplayModel.cs" />
+    <Compile Include="Model\Kpi\EmployeeArgumentModel.cs" />
+    <Compile Include="Model\Kpi\EvaluationCalculateModel.cs" />
+    <Compile Include="Model\Kpi\EvaluationModel.cs" />
+    <Compile Include="Model\Kpi\CriterionGroupModel.cs" />
+    <Compile Include="Model\Kpi\GroupKpiModel.cs" />
+    <Compile Include="Model\Recruitment\CandidateModel.cs" />
+    <Compile Include="Model\Recruitment\CandidateInterviewModel.cs" />
+    <Compile Include="Model\Recruitment\InterviewModel.cs" />
+    <Compile Include="Model\Recruitment\RequiredRecruitmentModel.cs" />
+    <Compile Include="Model\Salary\PayrollInfoModel.cs" />
+    <Compile Include="Model\Salary\SalaryAllowanceModel.cs" />
+    <Compile Include="Model\Salary\SalaryBoardDynamicColumnModel.cs" />
+    <Compile Include="Model\Security\MenuModel.cs" />
+    <Compile Include="Model\Security\SystemLogModel.cs" />
+    <Compile Include="Model\TimeSheet\AnnualLeaveHistoryModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetEmployeeReport.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetEventDayModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetEventSummaryModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetGroupSymbolModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetLogHandlerProcessModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetEventReportModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetSymbolModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetReportModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetMachineModel.cs" />
+    <Compile Include="Model\Report\PayrollItemModel.cs" />
+    <Compile Include="Model\Report\ReportColumnModel.cs" />
+    <Compile Include="Model\Report\ReportDynamicModel.cs" />
+    <Compile Include="Model\Report\ReportSourceModel.cs" />
+    <Compile Include="Model\Security\SchedulerModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetEmployeeGroupWorkShiftModel.cs" />
+    <Compile Include="Model\Catalog\CatalogBasicSalaryModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetWorkShiftTemplateModel.cs" />
+    <Compile Include="Report\Base\Filter.cs" />
+    <Compile Include="Report\Base\FilterGenerate.cs" />
+    <Compile Include="Report\Base\FilterItem.cs" />
+    <Compile Include="Report\Base\FilterCondition.cs" />
+    <Compile Include="Report\Base\ReportHelper.cs" />
+    <Compile Include="Report\Base\ReportTypeHJM.cs" />
+    <Compile Include="Report\Base\ReportTypeHRM.cs" />
+    <Compile Include="Report\Base\SelectedFilterCondition.cs" />
+    <Compile Include="Report\EmployeeDetail\rp_InformationEmployeeDetail_V2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeAssigned.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_BornInMonth.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeFostering.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeFostering.Designer.cs">
+      <DependentUpon>rpHJM_EmployeeFostering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_UnionMember.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_MilitaryList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeByDepartment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeDismissment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeExpired.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_ContractsOfEmployee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityEthnicMinority.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_PartyMember.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeMoveTo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeMoveFrom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeSecondmentTo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeTurnoverTo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeTurnoverFrom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeSecondmentFrom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeePlurality.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeTranfer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeSeniority.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeCompensation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Business\rpHJM_EmployeeRetirement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityCommuneCivilServants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityDistrictCivilServants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityDistrictCivilServantsDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityFemaleEmployee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_ListEmployeeByPosition.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_SalaryCommuneCivilServants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_SalaryDistrictCivilServants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Regulation\rpHJM_QuantityOfEmployee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\RewaredDisciplined\rpHJM_EmployeeReceivedAward.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\RewaredDisciplined\rpHJM_EmployeeRewarded.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\RewaredDisciplined\rpHJM_EmployeeDisciplined.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Salary\rpHJM_SalaryIncreaseProcess.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Salary\rpHJM_SalaryIncrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Salary\rpHJM_SalaryOutOfFrame.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Training\rpHJM_EmployeeTraining.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HJM\Shared\Training\rpHJM_EmployeeOnsite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\EmployeeDetail\rp_InformationEmployeeDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\EmployeeDetail\rp_PrintCurriculumVitae.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Termplate\rpHRM_Payroll_A2_Landscape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Termplate\rpHRM_Payroll_A2_Potrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Termplate\rpHRM_Payroll_A3_Potrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Termplate\rpHRM_Payroll_A3_Landscape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Termplate\rpHRM_Payroll_A4_Potrait.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Termplate\rpHRM_Payroll_A4_Landscape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_SalaryOutOfFrame.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\TimeSheet\rpHRM_OvertimeDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\TimeSheet\rpHRM_TimeKeepingOffice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\TimeSheet\rpHRM_TimeKeepingOfficeDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_ChildernDayGift.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_PartyMember.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_UnionMember.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_MilitaryList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_ContractsOfEmployee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_EmployeeExpried.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_EmployeeTrainee.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_InsuranceList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_InsuranceIncrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_OccupationStatistics.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_BornInMonth.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_EmployeeFemale.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Business\rpHRM_DecreaseInsurance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeDecrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_LabourDecrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_LabourIncrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_LabourList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeIncrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeTransferred.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeSent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeAssigned.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeSeniority.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeRetired.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\RewardDiscipline\rpHRM_EmployeeRewarded.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\RewardDiscipline\rpHRM_EmployeeDisciplined.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_EmployeeSalary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_SalaryIncreaseProcess.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_SalaryIncrease.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_EmployeeBank.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_EmployeeTaxCode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Salary\rpHRM_DependentPerson.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\RewardDiscipline\rpHRM_EmployeeReceivedAward.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Training\rpHRM_EmployeeTraining.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\HRM\Shared\Training\rpHRM_EmployeeOnsite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\SubReport\sub_FamilyRelationship.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\SubReport\sub_ProcessSalary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\SubReport\sub_ProcessTraining.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\SubReport\sub_ProcessWorking.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scheduler\JobScheduler.cs" />
+    <Compile Include="Scheduler\MainScheduler.cs" />
+    <Compile Include="Scheduler\TaskAnnualLeave.cs" />
+    <Compile Include="Scheduler\TaskCalculateDynamicColumn.cs" />
+    <Compile Include="Scheduler\TaskSample.cs" />
+    <Compile Include="Scheduler\TaskTimeSheet.cs" />
+    <Compile Include="Interface\IBaseControl.cs" />
+    <Compile Include="Interface\IBaseWindow.cs" />
+    <Compile Include="Model\Security\PermissionModel.cs" />
+    <Compile Include="Model\Salary\SalaryBoardConfigModel.cs" />
+    <Compile Include="Model\Salary\SalaryBoardInfoColumnCodeModel.cs" />
+    <Compile Include="Model\Salary\SalaryBoardInfoModel.cs" />
+    <Compile Include="Model\Catalog\TeamModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetCodeModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetEventModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetLogModel.cs" />
+    <Compile Include="Model\TimeSheet\AnnualLeaveConfigureModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetItemModel.cs" />
+    <Compile Include="Model\Salary\PayrollModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetGroupWorkShiftModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetWorkShiftModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetRuleWrongTimeModel.cs" />
+    <Compile Include="Model\TimeSheet\TimeSheetModel.cs" />
+    <Compile Include="Model\Catalog\AbilityModel.cs" />
+    <Compile Include="Model\Catalog\AddressModel.cs" />
+    <Compile Include="Model\AttachFileModel.cs" />
+    <Compile Include="Model\Catalog\BankModel.cs" />
+    <Compile Include="Model\Catalog\CatalogModel.cs" />
+    <Compile Include="Model\DelegateModel.cs" />
+    <Compile Include="Model\Base\JsonModel.cs" />
+    <Compile Include="Model\Catalog\LanguageModel.cs" />
+    <Compile Include="Model\HumanRecord\RecordModel.cs" />
+    <Compile Include="Model\Salary\SalaryDecisionModel.cs" />
+    <Compile Include="Model\Security\UserModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLAdapter\SQLReportRegulationAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLReportRewardDisciplineAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLReportSalaryAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLReportTrainingAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLBusinessAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLChartAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLContractAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLManagementAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLManagementSalaryAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLReportAdapter.cs" />
+    <Compile Include="SQLAdapter\SQLTimeTrackingAdapter.cs" />
+    <Compile Include="Utils\CompareUtil.cs" />
+    <Compile Include="Utils\ConvertUtils.cs" />
+    <Compile Include="Utils\Dialog.cs" />
+    <Compile Include="Utils\TimeSheetUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Web.Core\Web.Core.csproj">
+      <Project>{544fd179-c8d6-4dde-bf7f-88f4a55aec9e}</Project>
+      <Name>Web.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Report\HJM\Custom\" />
+    <Folder Include="Report\HRM\Custom\" />
+    <Folder Include="Report\TimeKeeping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Report\EmployeeDetail\rp_InformationEmployeeDetail_V2.resx">
+      <DependentUpon>rp_InformationEmployeeDetail_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_BornInMonth.resx">
+      <DependentUpon>rpHJM_BornInMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_ContractsOfEmployee.resx">
+      <DependentUpon>rpHJM_ContractsOfEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeAssigned.resx">
+      <DependentUpon>rpHJM_EmployeeAssigned.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeByDepartment.resx">
+      <DependentUpon>rpHJM_EmployeeByDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeDismissment.resx">
+      <DependentUpon>rpHJM_EmployeeDismissment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeExpired.resx">
+      <DependentUpon>rpHJM_EmployeeExpired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeFostering.resx">
+      <DependentUpon>rpHJM_EmployeeFostering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_MilitaryList.resx">
+      <DependentUpon>rpHJM_MilitaryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_PartyMember.resx">
+      <DependentUpon>rpHJM_PartyMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_UnionMember.resx">
+      <DependentUpon>rpHJM_UnionMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityEthnicMinority.resx">
+      <DependentUpon>rpHJM_QuantityEthnicMinority.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeCompensation.resx">
+      <DependentUpon>rpHJM_EmployeeCompensation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeList.resx">
+      <DependentUpon>rpHJM_EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeMoveTo.resx">
+      <DependentUpon>rpHJM_EmployeeMoveTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeePlurality.resx">
+      <DependentUpon>rpHJM_EmployeePlurality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeRetirement.resx">
+      <DependentUpon>rpHJM_EmployeeRetirement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeSecondmentFrom.resx">
+      <DependentUpon>rpHJM_EmployeeSecondmentFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeSecondmentTo.resx">
+      <DependentUpon>rpHJM_EmployeeSecondmentTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeSeniority.resx">
+      <DependentUpon>rpHJM_EmployeeSeniority.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeTranfer.resx">
+      <DependentUpon>rpHJM_EmployeeTranfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeTurnoverFrom.resx">
+      <DependentUpon>rpHJM_EmployeeTurnoverFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeTurnoverTo.resx">
+      <DependentUpon>rpHJM_EmployeeTurnoverTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityCommuneCivilServants.resx">
+      <DependentUpon>rpHJM_QuantityCommuneCivilServants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityDistrictCivilServants.resx">
+      <DependentUpon>rpHJM_QuantityDistrictCivilServants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityDistrictCivilServantsDetail.resx">
+      <DependentUpon>rpHJM_QuantityDistrictCivilServantsDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityFemaleEmployee.resx">
+      <DependentUpon>rpHJM_QuantityFemaleEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityOfEmployee.resx">
+      <DependentUpon>rpHJM_QuantityOfEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_ListEmployeeByPosition.resx">
+      <DependentUpon>rpHJM_ListEmployeeByPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_QuantityStaff.resx">
+      <DependentUpon>rpHJM_QuantityStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_SalaryCommuneCivilServants.resx">
+      <DependentUpon>rpHJM_SalaryCommuneCivilServants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Regulation\rpHJM_SalaryDistrictCivilServants.resx">
+      <DependentUpon>rpHJM_SalaryDistrictCivilServants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\RewaredDisciplined\rpHJM_EmployeeDisciplined.resx">
+      <DependentUpon>rpHJM_EmployeeDisciplined.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Business\rpHJM_EmployeeMoveFrom.resx">
+      <DependentUpon>rpHJM_EmployeeMoveFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\RewaredDisciplined\rpHJM_EmployeeReceivedAward.resx">
+      <DependentUpon>rpHJM_EmployeeReceivedAward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\RewaredDisciplined\rpHJM_EmployeeRewarded.resx">
+      <DependentUpon>rpHJM_EmployeeRewarded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Salary\rpHJM_SalaryIncrease.resx">
+      <DependentUpon>rpHJM_SalaryIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Salary\rpHJM_SalaryIncreaseProcess.resx">
+      <DependentUpon>rpHJM_SalaryIncreaseProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Salary\rpHJM_SalaryOutOfFrame.resx">
+      <DependentUpon>rpHJM_SalaryOutOfFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Training\rpHJM_EmployeeOnsite.resx">
+      <DependentUpon>rpHJM_EmployeeOnsite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HJM\Shared\Training\rpHJM_EmployeeTraining.resx">
+      <DependentUpon>rpHJM_EmployeeTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\EmployeeDetail\rp_InformationEmployeeDetail.resx">
+      <DependentUpon>rp_InformationEmployeeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_ChildernDayGift.resx">
+      <DependentUpon>rpHRM_ChildernDayGift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_EmployeeFemale.resx">
+      <DependentUpon>rpHRM_EmployeeFemale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_BornInMonth.resx">
+      <DependentUpon>rpHRM_BornInMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_ContractsOfEmployee.resx">
+      <DependentUpon>rpHRM_ContractsOfEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_EmployeeExpried.resx">
+      <DependentUpon>rpHRM_EmployeeExpried.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_EmployeeTrainee.resx">
+      <DependentUpon>rpHRM_EmployeeTrainee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_InsuranceIncrease.resx">
+      <DependentUpon>rpHRM_InsuranceIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_InsuranceList.resx">
+      <DependentUpon>rpHRM_InsuranceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_MilitaryList.resx">
+      <DependentUpon>rpHRM_MilitaryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_OccupationStatistics.resx">
+      <DependentUpon>rpHRM_OccupationStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_PartyMember.resx">
+      <DependentUpon>rpHRM_PartyMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_UnionMember.resx">
+      <DependentUpon>rpHRM_UnionMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Business\rpHRM_DecreaseInsurance.resx">
+      <DependentUpon>rpHRM_DecreaseInsurance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeAssigned.resx">
+      <DependentUpon>rpHRM_EmployeeAssigned.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeDecrease.resx">
+      <DependentUpon>rpHRM_EmployeeDecrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeIncrease.resx">
+      <DependentUpon>rpHRM_EmployeeIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeList.resx">
+      <DependentUpon>rpHRM_EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeRetired.resx">
+      <DependentUpon>rpHRM_EmployeeRetired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeSeniority.resx">
+      <DependentUpon>rpHRM_EmployeeSeniority.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeSent.resx">
+      <DependentUpon>rpHRM_EmployeeSent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_EmployeeTransferred.resx">
+      <DependentUpon>rpHRM_EmployeeTransferred.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\RewardDiscipline\rpHRM_EmployeeDisciplined.resx">
+      <DependentUpon>rpHRM_EmployeeDisciplined.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\RewardDiscipline\rpHRM_EmployeeRewarded.resx">
+      <DependentUpon>rpHRM_EmployeeRewarded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_DependentPerson.resx">
+      <DependentUpon>rpHRM_DependentPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_EmployeeBank.resx">
+      <DependentUpon>rpHRM_EmployeeBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\RewardDiscipline\rpHRM_EmployeeReceivedAward.resx">
+      <DependentUpon>rpHRM_EmployeeReceivedAward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_EmployeeSalary.resx">
+      <DependentUpon>rpHRM_EmployeeSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_EmployeeTaxCode.resx">
+      <DependentUpon>rpHRM_EmployeeTaxCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\TimeSheet\rpHRM_TimeKeepingOffice.resx">
+      <DependentUpon>rpHRM_TimeKeepingOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\TimeSheet\rpHRM_TimeKeepingOfficeDetail.resx">
+      <DependentUpon>rpHRM_TimeKeepingOfficeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Termplate\rpHRM_Payroll_A2_Landscape.resx">
+      <DependentUpon>rpHRM_Payroll_A2_Landscape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Termplate\rpHRM_Payroll_A2_Potrait.resx">
+      <DependentUpon>rpHRM_Payroll_A2_Potrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Termplate\rpHRM_Payroll_A3_Potrait.resx">
+      <DependentUpon>rpHRM_Payroll_A3_Potrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Termplate\rpHRM_Payroll_A3_Landscape.resx">
+      <DependentUpon>rpHRM_Payroll_A3_Landscape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Termplate\rpHRM_Payroll_A4_Potrait.resx">
+      <DependentUpon>rpHRM_Payroll_A4_Potrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Termplate\rpHRM_Payroll_A4_Landscape.resx">
+      <DependentUpon>rpHRM_Payroll_A4_Landscape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_SalaryIncrease.resx">
+      <DependentUpon>rpHRM_SalaryIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_SalaryIncreaseProcess.resx">
+      <DependentUpon>rpHRM_SalaryIncreaseProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Salary\rpHRM_SalaryOutOfFrame.resx">
+      <DependentUpon>rpHRM_SalaryOutOfFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\TimeSheet\rpHRM_OvertimeDetail.resx">
+      <DependentUpon>rpHRM_OvertimeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Training\rpHRM_EmployeeOnsite.resx">
+      <DependentUpon>rpHRM_EmployeeOnsite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Training\rpHRM_EmployeeTraining.resx">
+      <DependentUpon>rpHRM_EmployeeTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SubReport\sub_FamilyRelationship.resx">
+      <DependentUpon>sub_FamilyRelationship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SubReport\sub_ProcessSalary.resx">
+      <DependentUpon>sub_ProcessSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SubReport\sub_ProcessTraining.resx">
+      <DependentUpon>sub_ProcessTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SubReport\sub_ProcessWorking.resx">
+      <DependentUpon>sub_ProcessWorking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_LabourList.resx">
+      <DependentUpon>rpHRM_LabourList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_LabourIncrease.resx">
+      <DependentUpon>rpHRM_LabourIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\HRM\Shared\Regulation\rpHRM_LabourDecrease.resx">
+      <DependentUpon>rpHRM_LabourDecrease.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

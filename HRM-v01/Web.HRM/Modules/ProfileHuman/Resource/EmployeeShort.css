@@ -1,0 +1,122 @@
+﻿.main
+{
+    padding: 0px 6px;
+    height: auto;
+    margin: 0 auto;
+    font: normal 13px Timenewroman;
+}
+.x-form-simpleadd-trigger
+{
+    background:url(/Resource/icon/TriggerAdd.png) no-repeat !important;
+}
+
+#pn .x-panel-body
+{
+    background-color: #f7f7f7 !important;
+}
+
+.label
+{
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#A4,div#help
+{
+    width: 200mm;
+    margin: 30px 15px;
+    margin: 0px auto;
+    padding: 3px;
+}
+div#A4
+{
+    border: 1px solid #333;
+}
+div#help
+{
+    background: none repeat scroll 0 0 #b4009d;
+    color: #fff;  
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    display:none;
+}
+div#BottomCommand
+{
+    bottom: 5px;
+    height: 70px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+div#LeftCommand {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 1px solid #333;
+    margin: 30px 15px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.clr
+{
+    clear: both;
+}
+
+#SoHieuCanBo
+{
+    float: right;
+    margin-right: 100px;
+}
+
+#title
+{
+    padding: 5px 0;
+    font: bold 20px Timenewroman;
+    text-align: center;
+}
+
+#image
+{
+    float: left;
+}
+.table
+{
+    width: 100%;
+    border: none;
+    width: 746px !important;
+}
+
+#ThongTinCaNhan {
+    margin-right: 10px !important;
+    padding: 6px;
+    border: 1px solid #aaa;
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+div#BottomCommand {
+    left:250px;
+    bottom: 3px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+#image {
+    float: left;
+}
+
+#info {
+    float: right;
+    width: 585px;
+}

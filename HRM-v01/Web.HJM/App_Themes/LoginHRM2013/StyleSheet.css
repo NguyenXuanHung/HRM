@@ -1,0 +1,122 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+div#unlicensed
+{
+    display: none !important;
+    width: 10px !important;
+}
+body
+{
+    background: url(images/Background.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+div#LoginHeader
+{
+   /*height: 31px;
+    background: #b3d3ff;
+    border-bottom: 1px solid #7ea3d4;*/ 
+}
+div#WrapperLogin
+{
+    width: 880px;
+    margin: 0px auto;
+}
+div#InsideLoginHeader
+{
+    width: 950px;
+    margin: 0px auto;
+    line-height: 31px;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+div#bottom
+{
+    position: absolute;
+    bottom: 40px; 
+    height:30px;
+    width:100%;
+    text-align:center;
+}
+h1.copyright
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #333;
+    line-height:18px;
+    font-weight: bold; 
+}
+div#logo
+{
+    background: url(images/Logo.png) no-repeat;
+    width: 256px;
+    height: 155px;
+    margin: 0px auto 19px;
+}
+div#QuocHuy
+{
+    width:481px;
+    height:430px;
+    background:url(images/QuocHuy.png) no-repeat;
+    float:left;
+    margin-top:85px;
+}
+div#LoginBox
+{
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+    overflow: hidden;
+    float:right;
+}
+div#BoxLogin
+{
+    width: 298px;
+    background: #a8c5ff;
+    border: 1px solid #657eff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+p#ptitle
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    display: block;
+    line-height: 24px;
+    height: 24px;
+    width: 168px;
+    margin: 0px auto;
+    background: url(images/title.png) no-repeat;
+}
+table#table
+{
+    margin: 0px auto 5px;
+}
+.alink
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    padding-top: 6px;
+    color:black;
+    text-decoration: none;
+}
+.alink:hover
+{
+    font-weight: bold;
+}
+.btnLogin
+{
+    float: right;
+}
+.combo-selected
+{
+    background: red !important;
+    color: White;
+    font-weight: bold !important;
+}

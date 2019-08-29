@@ -1,0 +1,165 @@
+﻿/*STyle cho font chữ to lên, nếu ko cần thì xóa đi*/
+*
+{
+    font-size:12px !important;
+    font-family:Tahoma !important;
+}
+.x-grid-panel
+{
+    line-height:17px !important;
+}
+/*======END=====*/
+.x-menu-item-active a.x-menu-item
+{
+    background: #368eeb !important;
+    color: #fff !important;
+}
+
+.lineThrough
+{
+    text-decoration: line-through !important;
+}
+/*selected row*/
+.x-grid3-row-selected
+{
+    background-color: #d2dff2 !important;
+}
+/*Style cho template của combobox*/
+.list-item
+{
+    font: normal 11px tahoma, arial, helvetica, sans-serif;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    white-space: normal;
+    color: #000;
+}
+
+.search-item
+{
+    font: normal 11px tahoma, arial, helvetica, sans-serif;
+    padding: 3px 3px 3px 3px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #eeeeee;
+    white-space: normal;
+    color: #222;
+}
+
+    .search-item h3
+    {
+        display: block;
+        font: inherit;
+        font-weight: bold;
+        color: #222;
+    }
+
+/*Hỗ trợ xử lý css panel cơ cấu tổ chức*/
+.west-panel .x-layout-collapsed-west
+{
+    background: url(../../Resource/images/LocTheoPhongBan.png) no-repeat center;
+}
+
+div#pnlCoCauToChuc-xsplit
+{
+    border-right: 1px solid #98C0F4;
+    border-left: 1px solid #98C0F4;
+}
+
+div#unlicensed
+{
+    display: none !important;
+    width: 10px !important;
+}
+
+.x-window .x-panel-body
+{
+    background-color: #DFE8F6 !important;
+}
+/*Khi text dài thì cho phép GridPanel xuống dòng*/
+/*.x-grid3-cell-inner, .x-grid3-hd-inner
+{
+    
+}*/
+
+.form .x-panel-body
+{
+    background-color: #DFE8F6 !important;
+}
+
+.form .x-form-item-label
+{
+    /*style for label in form     font-weight:bold;     font-size:11px;*/
+    padding-left: 5px !important;
+    width: 90px !important; /*chiều dài của label*/
+}
+
+.x-form-group .x-form-group-header-text
+{
+    background-color: #dfe8f6;
+}
+/*Fix lỗi hở khoảng trắng khi người dùng thu nhỏ thanh menu bên trái*/
+.x-panel-bwrap
+{
+    background: #DFE8F6 !important;
+}
+
+.x-panel-tbar
+{
+    width: 100% !important;
+}
+
+.combo-selected
+{
+    background: red !important;
+    color: White;
+    font-weight: bold !important;
+} 
+/*STYLE LỖI KHI NHẬP SAI DỮ LIỆU*/
+.requiredData .x-form-text
+{
+    background: #fcfcb1 !important;
+}
+
+.x-form-invalid, textarea.x-form-invalid
+{
+    background-color: #fff !important;
+    background: url(Invalid_R.png) right center no-repeat !important;
+    border-color: #b5b8c8 !important;
+}
+/*STYLE CỦA DISPLAY FIELD LABEL*/
+.DisplayField
+{
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+/*Z-index cho thông báo lỗi*/
+.x-notification
+{
+    z-index: 100000 !important;
+}
+/*STYLE LÀM MỜ CÁC ĐƠN VỊ KHÔNG CÓ QUYỀN*/
+.dv-filter-borderlayout
+{
+    color: #C1C1C1 !important;
+}
+
+.x-tree-node .x-tree-selected
+{
+    background: #368eeb !important;
+}
+
+    .x-tree-node .x-tree-selected span, .x-tree-node .x-tree-node-over span
+    {
+        color: #fff !important;
+    }
+
+.x-tree-node .x-tree-node-over
+{
+    background: #368eeb !important;
+    color: #fff !important;
+}
+
+.requiredDataWG .x-form-text
+{
+    background: #fcfcb1 !important;
+}

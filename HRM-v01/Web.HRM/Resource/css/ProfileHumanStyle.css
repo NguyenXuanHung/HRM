@@ -1,0 +1,308 @@
+﻿/* DecisionSalaryEnterprise */
+#fpn_QDLuongHL .x-panel-footer {
+    border-top: 1px solid #99BBE8;
+}
+
+#gridDecisionSalaryEnterprise {
+    border-left: 1px solid #99bbe8;
+    border-bottom: 1px solid #99bbe8;
+}
+
+#pnlCacKhoanPhuCap {
+    border-top: 1px solid #99bbe8;
+}
+
+#pnlCoCauToChuc-xsplit {
+    border-right: none !important;
+}
+
+.disabled-control-style {
+    color: Black !important;
+}
+
+.disabled-input-style {
+    color: #595C6C !important;
+}
+
+/* DecisionSalary */
+#fpn_QDLuongHL .x-panel-footer {
+    border-top: 1px solid #99BBE8;
+}
+
+#GridPanel1 {
+    border-left: 1px solid #99bbe8;
+    border-bottom: 1px solid #99bbe8;
+}
+
+#pnlCacKhoanPhuCap {
+    border-top: 1px solid #99bbe8;
+}
+
+#pnlCoCauToChuc-xsplit {
+    border-right: none !important;
+}
+
+.disabled-control-style {
+    color: Black !important;
+}
+
+.disabled-input-style {
+    color: #595C6C !important;
+}
+
+#pnReportPanel .x-tab-panel-header {
+    display: none !important;
+}
+
+/* EmployeeShort */
+.main {
+    padding: 0px 6px;
+    height: auto;
+    margin: 0 auto;
+    font: normal 13px Timenewroman;
+}
+
+.x-form-simpleadd-trigger {
+    background: url(/Resource/icon/TriggerAdd.png) no-repeat !important;
+}
+
+#pn .x-panel-body {
+    background-color: #f7f7f7 !important;
+}
+
+.label {
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#A4, div#help {
+    width: 200mm;
+    margin: 30px 15px;
+    margin: 0px auto;
+    padding: 3px;
+}
+
+div#A4 {
+    border: 1px solid #333;
+}
+
+div#help {
+    background: none repeat scroll 0 0 #b4009d;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+
+div#BottomCommand {
+    bottom: 5px;
+    height: 70px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+div#LeftCommand {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 1px solid #333;
+    margin: 30px 15px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.clr {
+    clear: both;
+}
+
+#SoHieuCanBo {
+    float: right;
+    margin-right: 100px;
+}
+
+#title {
+    padding: 5px 0;
+    font: bold 20px Timenewroman;
+    text-align: center;
+}
+
+#image {
+    float: left;
+}
+
+.table {
+    width: 100%;
+    border: none;
+    width: 746px !important;
+}
+
+#ThongTinCaNhan {
+    margin-right: 10px !important;
+    padding: 6px;
+    border: 1px solid #aaa;
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+div#BottomCommand {
+    left: 250px;
+    bottom: 3px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+#image {
+    float: left;
+}
+
+#info {
+    float: right;
+    width: 585px;
+}
+
+/* Default */
+#SouthHoSoNhanSu1_hsImage {
+    border: 1px solid #99bbe8 !important;
+}
+
+#img_anhdaidien {
+    border: 1px solid #99bbe8 !important;
+}
+
+div#TreeCoCauToChuc .x-panel-body {
+    background-color: #fff !important;
+}
+
+#grp_HoSoNhanSu {
+    border-left: 1px solid #99bbe8;
+}
+
+#fd {
+    border-left: 1px solid #99bbe8;
+}
+
+#SouthHoSoNhanSu1_GridPanelPhuCap {
+    border-bottom: 1px solid #99bbe8;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.combo-selected {
+    background: red !important;
+    color: White;
+    font-weight: bold !important;
+}
+
+div#pnlCoCauToChuc-xsplit {
+    border-right: none !important;
+}
+
+.style1 {
+    height: 165px;
+    width: 118px;
+}
+/*Ẩn thanh tab ở window report*/
+div#pnReportPanel .x-tab-panel-header {
+    display: none !important;
+}
+
+.panelGeneralInformation .x-panel-body {
+    background: #DFE8F6 !important;
+}
+
+.hsImage {
+    position: absolute;
+    left: 0px;
+}
+
+div#TabPanelExcel .x-tab-panel-header {
+    display: none !important;
+}
+
+.bkGround .x-tab-panel-body {
+    background: #DFE8F6 !important;
+}
+
+div#grp_HoSoNhanSu .x-grid3-cell-inner, div#grp_HoSoNhanSu .x-grid3-hd-inner {
+    white-space: nowrap !important;
+}
+
+#SouthHoSoNhanSu1_TabPanelBottom {
+    border-top: 1px solid #8DB2E3 !important;
+}
+
+/* Contract */
+div#grpContract .x-grid3-cell-inner, .x-grid3-hd-inner
+{
+    white-space: nowrap !important;
+}
+
+/* RewardDisciplinementManagement */
+div#grp_KhenThuongKyLuat .x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: nowrap !important;
+}
+
+/* EmployeeDetail */
+#employeeDetail_GridPanel_BangCap .x-grid3-cell-inner
+{
+    white-space: normal !important;
+}
+
+.Download {
+    background-image: url(../images/download.png) !important;
+}
+
+div#GridPanel1 .x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: nowrap !important;
+}
+
+.south-panel .x-layout-collapsed-south {
+    background: url(../images/Cac_khoan_phu_cap.png) no-repeat center;
+}
+
+.search-item {
+    font: normal 11px tahoma, arial, helvetica, sans-serif;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #eeeeee;
+    white-space: normal;
+    color: #555;
+}
+
+.search-item h3 {
+    display: block;
+    font: inherit;
+    font-weight: bold;
+    color: #222;
+}
+
+    .search-item h3 span {
+        float: right;
+        font-weight: normal;
+        margin: 0 0 5px 5px;
+        width: 100px;
+        display: block;
+        clear: none;
+    }
+
+.list-item {
+    font: normal 11px tahoma, arial, helvetica, sans-serif;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    white-space: normal;
+    color: #000;
+}

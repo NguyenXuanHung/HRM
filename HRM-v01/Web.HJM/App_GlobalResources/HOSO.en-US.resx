@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexTimeSheetHandlerType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexTimeSheetHandlerType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexTimeSheetHandlerType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexTimeSheetHandlerType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Add new employee</value>
+  </data>
+  <data name="Asset_Allocation" xml:space="preserve">
+    <value>3.Asset Allocation</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contract_type" xml:space="preserve">
+    <value>Contract type</value>
+  </data>
+  <data name="day_probation" xml:space="preserve">
+    <value>Day probation</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Double_data" xml:space="preserve">
+    <value>Double Data</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="enter_from_excel" xml:space="preserve">
+    <value>Import data from excel file</value>
+  </data>
+  <data name="Formats_file_is_not_valid" xml:space="preserve">
+    <value>Format file is not valid</value>
+  </data>
+  <data name="guide" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="HR_profile" xml:space="preserve">
+    <value>Human Resource Profile</value>
+  </data>
+  <data name="identity_number" xml:space="preserve">
+    <value>Identity number</value>
+  </data>
+  <data name="Labour_Contract" xml:space="preserve">
+    <value>2. Labour Contract</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="mass_update_image" xml:space="preserve">
+    <value>Mass update image</value>
+  </data>
+  <data name="maximum_characters" xml:space="preserve">
+    <value>You may only enter a maximum of 50 characters</value>
+  </data>
+  <data name="notify" xml:space="preserve">
+    <value>Notify</value>
+  </data>
+  <data name="number_line_per_page" xml:space="preserve">
+    <value>Number of lines on a page:</value>
+  </data>
+  <data name="official_day" xml:space="preserve">
+    <value>Official day</value>
+  </data>
+  <data name="personal_information" xml:space="preserve">
+    <value>Personal Information</value>
+  </data>
+  <data name="Please_wait" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
+  <data name="Profile_information" xml:space="preserve">
+    <value>1.Profile Information</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Select_Image" xml:space="preserve">
+    <value>Select Image</value>
+  </data>
+  <data name="software_only_accept_image" xml:space="preserve">
+    <value>software only accept image formats jpg, png, gif, bmp, jpeg!</value>
+  </data>
+  <data name="staff_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="staff_birthday" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="staff_code" xml:space="preserve">
+    <value>Staff code</value>
+  </data>
+  <data name="staff_gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="staff_level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="staff_name" xml:space="preserve">
+    <value>Staff name</value>
+  </data>
+  <data name="staff_phone" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="staff_section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="training_school" xml:space="preserve">
+    <value>Training school</value>
+  </data>
+  <data name="utility" xml:space="preserve">
+    <value>Utility</value>
+  </data>
+  <data name="are_you_sure" xml:space="preserve">
+    <value>Are you sure ?</value>
+  </data>
+  <data name="description_record" xml:space="preserve">
+    <value>From {0} to {1} / {2} rows</value>
+  </data>
+  <data name="first_page" xml:space="preserve">
+    <value>First page</value>
+  </data>
+  <data name="last_page" xml:space="preserve">
+    <value>Last page</value>
+  </data>
+  <data name="next_page" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="no_data" xml:space="preserve">
+    <value>No data for display</value>
+  </data>
+  <data name="no_selected_record" xml:space="preserve">
+    <value>Please choose an employee to delete</value>
+  </data>
+  <data name="page_size" xml:space="preserve">
+    <value>Page size</value>
+  </data>
+  <data name="prev_page" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+</root>
