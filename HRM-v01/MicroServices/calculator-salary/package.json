@@ -19,7 +19,7 @@
     "react-table": "^6.8.6",
     "react-table-hoc-fixed-columns": "^1.0.1",
     "string-format": "^2.0.0",
-    "xlsx": "^0.13.3"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
